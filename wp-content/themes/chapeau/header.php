@@ -21,7 +21,7 @@
 				'theme_location' => 'primary',
 				'container' => false,
 				'menu_class' => 'nav',
-				'depth' => 1
+				'depth' => 2
 				)
 			);
 			?>

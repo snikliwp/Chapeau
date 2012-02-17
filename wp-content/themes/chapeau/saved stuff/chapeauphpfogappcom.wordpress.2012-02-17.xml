@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.3.1" created="2012-02-16 21:18" -->
+<!-- generator="WordPress/3.3.1" created="2012-02-17 16:52" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,16 +26,16 @@
 >
 
 <channel>
-	<title>Chapeau Agricultural Society</title>
-	<link>http://localhost/wilk0146/chapeau</link>
+	<title>chapeau.phpfogapp.com</title>
+	<link>http://chapeau.phpfogapp.com</link>
 	<description></description>
-	<pubDate>Thu, 16 Feb 2012 21:18:18 +0000</pubDate>
+	<pubDate>Fri, 17 Feb 2012 16:52:14 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
-	<wp:base_site_url>http://localhost/wilk0146/chapeau</wp:base_site_url>
-	<wp:base_blog_url>http://localhost/wilk0146/chapeau</wp:base_blog_url>
+	<wp:base_site_url>http://chapeau.phpfogapp.com</wp:base_site_url>
+	<wp:base_blog_url>http://chapeau.phpfogapp.com</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>wilk0146</wp:author_login><wp:author_email>wilk0146@algonquin.live</wp:author_email><wp:author_display_name><![CDATA[wilk0146]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>wilk0146</wp:author_login><wp:author_email>wilk0146@algonquinlive.com</wp:author_email><wp:author_display_name><![CDATA[wilk0146]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>uncategorized</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
 	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>primary</wp:term_slug><wp:term_name><![CDATA[primary]]></wp:term_name></wp:term>
@@ -44,7 +44,7 @@
 
 	<item>
 		<title>Home</title>
-		<link>http://localhost/wilk0146/chapeau/</link>
+		<link>http://chapeau.phpfogapp.com/</link>
 		<pubDate>Tue, 14 Feb 2012 19:02:28 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=5</guid>
@@ -106,16 +106,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=6</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:01 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/6/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:13 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=6</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:01</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:01</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:13</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:13</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>6</wp:post_name>
@@ -161,7 +161,7 @@
 	</item>
 	<item>
 		<title>Community Gardens</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=10</link>
+		<link>http://chapeau.phpfogapp.com/community-gardens/</link>
 		<pubDate>Tue, 14 Feb 2012 19:31:22 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=10</guid>
@@ -223,7 +223,7 @@
 	</item>
 	<item>
 		<title>Education</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=12</link>
+		<link>http://chapeau.phpfogapp.com/education/</link>
 		<pubDate>Tue, 14 Feb 2012 19:31:33 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=12</guid>
@@ -285,7 +285,7 @@
 	</item>
 	<item>
 		<title>Just For Fun</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=14</link>
+		<link>http://chapeau.phpfogapp.com/just-for-fun/</link>
 		<pubDate>Tue, 14 Feb 2012 19:31:56 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=14</guid>
@@ -347,7 +347,7 @@
 	</item>
 	<item>
 		<title>Sale Barn</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=16</link>
+		<link>http://chapeau.phpfogapp.com/sale-barn/</link>
 		<pubDate>Tue, 14 Feb 2012 19:32:21 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=16</guid>
@@ -409,7 +409,7 @@
 	</item>
 	<item>
 		<title>En Francais</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=22</link>
+		<link>http://chapeau.phpfogapp.com/en-francais/</link>
 		<pubDate>Tue, 14 Feb 2012 19:33:43 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=22</guid>
@@ -471,16 +471,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=23</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:04 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/23/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:13 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=23</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=23</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>23</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:04</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:04</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:13</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:13</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>23</wp:post_name>
@@ -526,16 +526,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=24</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:04 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/24/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:13 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=24</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=24</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>24</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:04</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:04</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:13</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:13</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>24</wp:post_name>
@@ -581,16 +581,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=25</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:05 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/25/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=25</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=25</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>25</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:05</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:05</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>25</wp:post_name>
@@ -636,16 +636,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=26</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:05 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/26/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=26</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=26</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>26</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:05</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:05</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>26</wp:post_name>
@@ -691,16 +691,16 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=27</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:06 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/27/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=27</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>27</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:06</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:06</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>27</wp:post_name>
@@ -746,19 +746,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=28</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:06 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/40/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=28</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=40</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>28</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:06</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:06</wp:post_date_gmt>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>28</wp:post_name>
+		<wp:post_name>40</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>10</wp:menu_order>
@@ -801,19 +801,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=29</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:06 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/41/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=29</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=41</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>29</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:06</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:06</wp:post_date_gmt>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>29</wp:post_name>
+		<wp:post_name>41</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>4</wp:menu_order>
@@ -856,19 +856,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=32</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:08 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/42/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=32</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=42</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>32</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:08</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:08</wp:post_date_gmt>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>32</wp:post_name>
+		<wp:post_name>42</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>5</wp:menu_order>
@@ -911,19 +911,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=33</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:09 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/43/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=33</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=43</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>33</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:09</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:09</wp:post_date_gmt>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>33</wp:post_name>
+		<wp:post_name>43</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>11</wp:menu_order>
@@ -966,19 +966,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=34</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:09 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/44/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=34</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=44</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>34</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:09</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:09</wp:post_date_gmt>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>34</wp:post_name>
+		<wp:post_name>44</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>13</wp:menu_order>
@@ -1021,19 +1021,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=35</link>
-		<pubDate>Thu, 16 Feb 2012 20:50:09 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/45/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=35</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=45</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>35</wp:post_id>
-		<wp:post_date>2012-02-16 20:50:09</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:50:09</wp:post_date_gmt>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>35</wp:post_name>
+		<wp:post_name>45</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>12</wp:menu_order>
@@ -1076,19 +1076,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=41</link>
-		<pubDate>Thu, 16 Feb 2012 21:17:04 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/46/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=41</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=46</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>41</wp:post_id>
-		<wp:post_date>2012-02-16 21:17:04</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 21:17:04</wp:post_date_gmt>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>41</wp:post_name>
+		<wp:post_name>46</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
@@ -1131,19 +1131,19 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/wilk0146/chapeau/?p=42</link>
-		<pubDate>Thu, 16 Feb 2012 21:17:04 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/47/</link>
+		<pubDate>Fri, 17 Feb 2012 16:06:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=42</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=47</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>42</wp:post_id>
-		<wp:post_date>2012-02-16 21:17:04</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 21:17:04</wp:post_date_gmt>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date>2012-02-17 16:06:14</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 16:06:14</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>42</wp:post_name>
+		<wp:post_name>47</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
@@ -1186,16 +1186,16 @@
 	</item>
 	<item>
 		<title>Hello world!</title>
-		<link>http://localhost/wilk0146/chapeau/?p=1</link>
-		<pubDate>Thu, 16 Feb 2012 20:18:41 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/hello-world/</link>
+		<pubDate>Fri, 17 Feb 2012 15:16:53 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=1</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1</wp:post_id>
-		<wp:post_date>2012-02-16 20:18:41</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:18:41</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 15:16:53</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 15:16:53</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>hello-world</wp:post_name>
@@ -1212,8 +1212,8 @@
 			<wp:comment_author_email></wp:comment_author_email>
 			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
 			<wp:comment_author_IP></wp:comment_author_IP>
-			<wp:comment_date>2012-02-16 20:18:41</wp:comment_date>
-			<wp:comment_date_gmt>2012-02-16 20:18:41</wp:comment_date_gmt>
+			<wp:comment_date>2012-02-17 15:16:53</wp:comment_date>
+			<wp:comment_date_gmt>2012-02-17 15:16:53</wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
 			<wp:comment_type></wp:comment_type>
@@ -1223,10 +1223,10 @@
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=2</link>
-		<pubDate>Thu, 16 Feb 2012 20:18:41 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/sample-page/</link>
+		<pubDate>Fri, 17 Feb 2012 15:16:53 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
-		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=2</guid>
+		<guid isPermaLink="false">http://chapeau.phpfogapp.com/?page_id=2</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
 
@@ -1236,11 +1236,11 @@
 
 <blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
 
-As a new WordPress user, you should go to <a href="http://localhost/wilk0146/chapeau/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+As a new WordPress user, you should go to <a href="http://chapeau.phpfogapp.com/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2</wp:post_id>
-		<wp:post_date>2012-02-16 20:18:41</wp:post_date>
-		<wp:post_date_gmt>2012-02-16 20:18:41</wp:post_date_gmt>
+		<wp:post_date>2012-02-17 15:16:53</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 15:16:53</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>sample-page</wp:post_name>
@@ -1257,7 +1257,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Farmers Market</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=8</link>
+		<link>http://chapeau.phpfogapp.com/market/</link>
 		<pubDate>Tue, 14 Feb 2012 19:34:40 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=8</guid>
@@ -1319,7 +1319,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Regional Producers</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=9</link>
+		<link>http://chapeau.phpfogapp.com/regional-producers/</link>
 		<pubDate>Tue, 14 Feb 2012 19:35:22 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=9</guid>
@@ -1381,7 +1381,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Gift Shop</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=18</link>
+		<link>http://chapeau.phpfogapp.com/gift-shop/</link>
 		<pubDate>Tue, 14 Feb 2012 19:34:50 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=18</guid>
@@ -1443,7 +1443,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Pontiac Recipies</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=19</link>
+		<link>http://chapeau.phpfogapp.com/pontiac-recipies/</link>
 		<pubDate>Tue, 14 Feb 2012 19:35:11 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=19</guid>
@@ -1505,7 +1505,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Useful Links</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=20</link>
+		<link>http://chapeau.phpfogapp.com/useful-links/</link>
 		<pubDate>Tue, 14 Feb 2012 19:37:47 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=20</guid>
@@ -1567,7 +1567,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Photo Gallery</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=21</link>
+		<link>http://chapeau.phpfogapp.com/photo-gallery/</link>
 		<pubDate>Tue, 14 Feb 2012 19:34:59 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=21</guid>
@@ -1629,16 +1629,16 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Hello world!</title>
-		<link>http://localhost/wilk0146/chapeau/?p=30</link>
-		<pubDate>Tue, 14 Feb 2012 18:05:19 +0000</pubDate>
+		<link>http://chapeau.phpfogapp.com/2012/02/hello-world-2/</link>
+		<pubDate>Thu, 16 Feb 2012 20:18:41 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>30</wp:post_id>
-		<wp:post_date>2012-02-14 18:05:19</wp:post_date>
-		<wp:post_date_gmt>2012-02-14 18:05:19</wp:post_date_gmt>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date>2012-02-16 20:18:41</wp:post_date>
+		<wp:post_date_gmt>2012-02-16 20:18:41</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>hello-world-2</wp:post_name>
@@ -1655,6 +1655,77 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 			<wp:comment_author_email></wp:comment_author_email>
 			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
 			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2012-02-16 20:18:41</wp:comment_date>
+			<wp:comment_date_gmt>2012-02-16 20:18:41</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Sample Page</title>
+		<link>http://chapeau.phpfogapp.com/sample-page-2/</link>
+		<pubDate>Thu, 16 Feb 2012 20:18:41 +0000</pubDate>
+		<dc:creator>wilk0146</dc:creator>
+		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://localhost/wilk0146/chapeau/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>29</wp:post_id>
+		<wp:post_date>2012-02-16 20:18:41</wp:post_date>
+		<wp:post_date_gmt>2012-02-16 20:18:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>sample-page-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hello world!</title>
+		<link>http://chapeau.phpfogapp.com/2012/02/hello-world-2-2/</link>
+		<pubDate>Tue, 14 Feb 2012 18:05:19 +0000</pubDate>
+		<dc:creator>wilk0146</dc:creator>
+		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date>2012-02-14 18:05:19</wp:post_date>
+		<wp:post_date_gmt>2012-02-14 18:05:19</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hello-world-2-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:comment>
+			<wp:comment_id>3</wp:comment_id>
+			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
 			<wp:comment_date>2012-02-14 18:05:19</wp:comment_date>
 			<wp:comment_date_gmt>2012-02-14 18:05:19</wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
@@ -1666,7 +1737,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=31</link>
+		<link>http://chapeau.phpfogapp.com/sample-page-2-2/</link>
 		<pubDate>Tue, 14 Feb 2012 18:05:19 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=2</guid>
@@ -1686,7 +1757,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 		<wp:post_date_gmt>2012-02-14 18:05:19</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>sample-page-2</wp:post_name>
+		<wp:post_name>sample-page-2-2</wp:post_name>
 		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1708,7 +1779,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>test</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=36</link>
+		<link>http://chapeau.phpfogapp.com/test/</link>
 		<pubDate>Thu, 16 Feb 2012 21:16:14 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=36</guid>
@@ -1770,7 +1841,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wilk0146/cha
 	</item>
 	<item>
 		<title>Test 2</title>
-		<link>http://localhost/wilk0146/chapeau/?page_id=39</link>
+		<link>http://chapeau.phpfogapp.com/test-2/</link>
 		<pubDate>Thu, 16 Feb 2012 21:16:40 +0000</pubDate>
 		<dc:creator>wilk0146</dc:creator>
 		<guid isPermaLink="false">http://localhost/wilk0146/chapeau/?page_id=39</guid>
