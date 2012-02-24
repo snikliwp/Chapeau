@@ -8,15 +8,17 @@ Template Name: Home page
 	the_post();
 	$home_post = $post;
 ?>
-<h2>Home Page Template</h2>
 
-
-
-<?php 
-setup_postdata($home_post);
-the_content();
- ?>
-
+<article>
+	<div class="middle">
+<h2><?php the_title ?></h2>
+		<?php 
+        setup_postdata($home_post);
+        the_content();
+         ?>
+	</div>
+	<div class="right">Events</div>
+</article>
 
 
 <?php get_footer(); ?>

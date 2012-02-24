@@ -6,9 +6,13 @@
 ?>
 
 <article>
+	<div class="middle">
 
 <h1><?php the_title();?></h1>
 <?php the_content();?>
+
+	</div>
+	<div class="right">Events</div>
 </article>
 
 <footer>
