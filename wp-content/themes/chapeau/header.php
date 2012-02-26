@@ -8,12 +8,13 @@
 	<?php wp_head() ?>
 </head>
 <body>
-<h2>Header</h2>
-<header class="wrapper masthead">
-  <h1 class="logo">
-  </h1>
+
+<header class="top">
+	<h1><a href="#">Francais</a><a href="#">English</a></h1>
 </header>
 
+
+<div class="left">
 	<nav class="wrapper">
 		<?php 
 			wp_nav_menu(
@@ -26,3 +27,4 @@
 			);
 			?>
 	</nav>
+</div>
