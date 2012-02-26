@@ -485,39 +485,53 @@ body {
  *  @subsection Navigation
  */
 
-.nav {
-  margin: 0 0 2em;
-  padding: 0;
-
-/*  list-style-type: none;
-  text-align: center;
-*/}
-
-.nav li {
-  display: block;
-  margin: 0;
-  padding: 0;
-  position: relative;
-
-  font-size: 1.5em;
-  line-height: 1;
+.nav, .nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
+
+.nav a {
+	display: inline-block;
+	width: 10em;
+	background-color: #cfc;
+}
+
+
+.nav li ul {
+	position: absolute;
+	width: 10em;
+	left: -999em;
+}
+
+.nav li:hover ul {
+	left: auto;
+	margin: -1em 0 0 10em;
+}
+
+
+
+
+
+
+
+
 
 .nav li a,
 .nav li a:link,
 .nav li a:visited {
-  display: inline-block;
+/*  display: inline-block;
   margin: 0;
-/*  padding: 0.6em 0 0.7em;
-*/  position: relative;
-/*  width: 14%;
-*/  z-index: 100;
+  padding: 0.6em 0 0.7em;
+  position: relative;
+  width: 14%;
+  z-index: 100;
 
   border: none;
 
   color: #562f18;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 
 .nav li a:hover,
@@ -531,8 +545,8 @@ body {
 */}
 
 .nav li:nth-child(2) a {
-  margin-right: 240px;
-}
+/*  margin-right: 240px;
+*/}
 
 .nav li.current a,
 .nav li.current a:link,
@@ -541,6 +555,11 @@ body {
 
   color: #aa282c;
 */}
+h2 {
+	clear: left;
+}
+
+
 
 /**
  *  @section  Layout
