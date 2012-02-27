@@ -528,7 +528,12 @@ body {
 
 .nav a {
 	display: inline-block;
-	width: 12em;S
+	width: 12em;
+	background-color: #cfc;
+}
+.sub-menu a {
+	display: inline-block;
+	width: 13em;
 	background-color: #cfc;
 }
 
