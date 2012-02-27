@@ -326,7 +326,8 @@ td {
   visibility: hidden;
 }
 
-*/.clearfix:before,
+*/
+.clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
@@ -527,20 +528,20 @@ body {
 
 .nav a {
 	display: inline-block;
-	width: 10em;
+	width: 12em;S
 	background-color: #cfc;
 }
 
 
 .nav li ul {
 	position: absolute;
-	width: 10em;
+	width: 12em;
 	left: -999em;
 }
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1.5em 0 0 10em;
+	margin: -1.5em 0 0 12em;
 }
 
 
