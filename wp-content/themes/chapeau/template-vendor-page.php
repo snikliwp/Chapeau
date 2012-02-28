@@ -20,7 +20,7 @@ Template Name: vendor page
 	<li>hapeau Farmer’s Market Rules and Regulations</li>
 </ul>
 
-<p>Our rules and entry forms are available as PDF files. Click <a href="">here to get Adbobe Acrobat Reader</a> to view and print these files.)
+<p>Our rules and entry forms are available as PDF files. Click <a href="http://get.adobe.com/reader/" target="_blank">here </a> to get Adbobe Acrobat Reader to view and print these files.)
 
 <a href="">Provincial Health Unit Application Form PDF</a>
 
