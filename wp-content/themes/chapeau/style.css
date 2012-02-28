@@ -205,13 +205,7 @@ h1 a:last-child {
 
 }
 
-ul {
-	margin-top:100px;
-	list-style-type: none;
-	text-decoration: none;
-}
-
-li {
+/*li {
 	padding:8px;
 	padding-right:15px;
 }
@@ -223,11 +217,26 @@ li a {
 	list-style-type: none;
 	text-decoration: none;
 }
-
+*/
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
 }
 
+.nav, .nav ul {
+	margin-top:100px;
+	padding:8px;
+	padding-right:15px;
+
+	list-style-type: none;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav a {
+	display: inline-block;
+	width: 12em;
+	background-color: #cfc;
+}
 .sub-menu a {
 	display: inline-block;
 	width: 13em;
@@ -242,7 +251,8 @@ li a {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1.5em 0 0 12em;
+	margin: 0;
+	padding: 0;
 }
 
 .gallery a {
@@ -256,27 +266,6 @@ li a {
 .gallery img {
 	display: block;
 }
-
-/**
- *  @section  Layout
- */
-
-
-/*.nav, .nav ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.nav a {
-	display: inline-block;
-	width: 12em;
-	background-color: #cfc;
-}
-
-
-*/
-
 
 .middle {
 	margin:0;
