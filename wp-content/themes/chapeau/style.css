@@ -250,7 +250,8 @@ ul {
 	position: absolute;
 	left: -999em;
 	width: 13em;
-	background-color:#128190;
+	background-color:#5e8771;
+	box-shadow:2px 2px 0 rgba(255, 255, 255, .5);
 }
 
 .sub-menu a {
