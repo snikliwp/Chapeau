@@ -241,7 +241,6 @@ h1 a:last-child {
 	left: -999em;
 	width: 13em;
 	margin: -1em 0 0 13em;
-
 }
 
 .sub-menu a {
@@ -253,7 +252,7 @@ h1 a:last-child {
 
 }
 
-.nav li:hover ul {
+.sub-menu:hover ul {
 	left: auto;
 }
 
