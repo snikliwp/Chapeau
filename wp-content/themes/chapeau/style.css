@@ -253,7 +253,7 @@ h1 a:last-child {
 
 }
 
-.nav li:hover ul {
+.nav li:hover sub-menu li {
 	left: auto;
 }
 
