@@ -218,6 +218,12 @@ h1 a:last-child {
 
 }
 
+ul {
+	margin-top:100px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
 .nav, .nav ul {
 	list-style-type: none;
 	text-decoration: none;
@@ -228,6 +234,10 @@ h1 a:last-child {
 .nav a {
 	display:block;
 	width: 13em;
+
+	padding:8px;
+	padding-right:15px;
+
 	
 }
 
