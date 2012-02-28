@@ -321,7 +321,6 @@ span {
 
 #farmhouse {
 	background-image:url("images/HTML_left_overlay.png");
-	background-size:100% 100%;
 
 	position:absolute;
 	z-index:-1;
@@ -334,7 +333,6 @@ span {
 
 #haybail {
 	background-image:url("images/HTML_right_overlay.png");
-	background-size:100% 100%;
 
 	position:absolute;
 	z-index:-1;
