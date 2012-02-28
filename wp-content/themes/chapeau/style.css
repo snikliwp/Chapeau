@@ -226,7 +226,6 @@ li a {
 
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
-	padding: 1em;
 }
 
 .gallery a {
@@ -275,6 +274,8 @@ li a {
 	margin: -1.5em 0 0 12em;
 }
 */
+
+
 .middle {
 	margin:0;
 	width:50%;
