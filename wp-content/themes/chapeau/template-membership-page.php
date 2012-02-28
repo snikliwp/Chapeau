@@ -25,7 +25,7 @@ Template Name: Membership page
 	<li>J0X 1M0</li>
 </ul>
 
-<a title="Membership Application Form PDF" href="#">Membership Application Form PDF</a>
+<a title="Membership Application Form PDF" href="forms/ApplicationForm.pdf">Membership Application Form PDF</a>
 
 
 <?php 
