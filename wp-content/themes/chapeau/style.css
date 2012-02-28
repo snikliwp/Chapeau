@@ -240,7 +240,6 @@ h1 a:last-child {
 	position: absolute;
 	left: -999em;
 	width: 13em;
-	margin: -1em 0 0 13em;
 
 }
 
@@ -255,6 +254,7 @@ h1 a:last-child {
 
 .nav li:hover ul {
 	left: auto;
+	margin: -1em 0 0 13em;
 }
 
 .gallery a {
