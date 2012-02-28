@@ -172,6 +172,10 @@ body {
 
 }
 
+.top a {
+	font-family:'CopperPlateB',Sans-Serif;
+}
+
 h1 {
 	height:46px;
 
@@ -195,7 +199,10 @@ h1 a:last-child {
 	text-decoration: none;
 	display:inline;
 	float:left;
+
 	margin:0;
+	padding:0;
+
 	width:25%;
 	height:900px;
 	text-align:right;
@@ -206,32 +213,30 @@ h1 a:last-child {
 }
 
 li {
-	padding:8px;
-	padding-right:15px;
+	margin:0;
+	padding:0;
 }
 
 li a {
-	padding:8px;
-	padding-right:15px;
+	margin:0;
+	padding:0;
 
 	list-style-type: none;
 	text-decoration: none;
 }
 
-.top a {
-	font-family:'CopperPlateB',Sans-Serif;
-}
 
 .nav, .nav ul {
-	margin-top:100px;
 	list-style-type: none;
 	text-decoration: none;
-	list-style: none;
 }
 
 .nav a {
 	display: inline-block;
-	width: 12em;
+
+	margin:0;
+	padding:0;
+
 }
 .sub-menu a {
 	display: inline-block;
@@ -244,8 +249,11 @@ li a {
 
 .nav li ul {
 	position: absolute;
-	width: 12em;
 	left: -999em;
+
+	margin:0;
+	padding:0;
+
 }
 
 .nav li:hover ul {
