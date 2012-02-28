@@ -250,12 +250,12 @@ ul {
 	position: absolute;
 	left: -999em;
 	width: 13em;
-
+	background:url("images/HEADER_background_tiled.png") repeat-x;
+	background-size:100% 100%;
 }
 
 .sub-menu a {
 	display: block;
-	background-color: #809f96;
 	width: 13em;
 	margin:0;
 	
