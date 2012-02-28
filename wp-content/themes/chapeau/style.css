@@ -221,6 +221,7 @@ h1 a:last-child {
 li {
 	margin:0;
 	padding:0;
+	width: 14em;
 }
 
 li a {
