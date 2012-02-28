@@ -239,7 +239,7 @@ ul {
 	display:block;
 	width: 13em;
 
-	padding:2em;
+	padding:.5em;
 	padding-right:3em;
 
 	
@@ -265,8 +265,6 @@ ul {
 	width: 13em;
 	margin:0;
 	
-	padding:2em;
-
 }
 
 .nav li:hover ul {
