@@ -265,11 +265,13 @@ li a {
 	padding:0;
 
 }
+.sub-menu li ul ul {
+	margin: -1em 0 0 13em;
 
+}
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1em 0 0 13em;
 }
 
 .gallery a {
