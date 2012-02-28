@@ -218,7 +218,7 @@ h1 a:last-child {
 
 }
 
-li {
+/*li {
 	margin:0;
 	padding:0;
 }
@@ -231,21 +231,33 @@ li a {
 	text-decoration: none;
 }
 
-
+*/
 .nav, .nav ul {
 	list-style-type: none;
 	text-decoration: none;
+	margin:0;
+	padding:0;
 }
 
 .nav a {
-	display: inline-block;
+	display:block;
 	width: 13em;
-	margin:0;
-	padding:0;
 	
+}
+
+
+.nav li {
 	float:left;
+	width:13em;
+}
+
+.sub-menu ul {
+	position: absolute;
+	left: -999em;
+	width: 13em;
 
 }
+
 .sub-menu a {
 	display: inline-block;
 	background-color: #809f96;
@@ -255,14 +267,6 @@ li a {
 
 }
 
-.nav li ul {
-	position: absolute;
-	left: -999em;
-	width: 13em;
-	margin:0;
-	padding:0;
-
-}
 
 .nav li:hover ul {
 	left: auto;
