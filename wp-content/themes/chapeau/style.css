@@ -255,7 +255,6 @@ li a {
 	position: absolute;
 	left: -999em;
 	width: 13em;
-	margin: -1em 0 0 13em;
 }
 
 .sub-menu a {
@@ -270,6 +269,7 @@ li a {
 
 .nav li:hover ul {
 	left: auto;
+	margin: -1em 0 0 13em;
 }
 
 .gallery a {
