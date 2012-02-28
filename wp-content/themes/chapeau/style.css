@@ -239,8 +239,8 @@ ul {
 	display:block;
 	width: 13em;
 
-	padding:8px;
-	padding-right:15px;
+	padding:2em;
+	padding-right:3em;
 
 	
 }
@@ -265,13 +265,13 @@ ul {
 	width: 13em;
 	margin:0;
 	
-	padding:8px;
+	padding:2em;
 
 }
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1em 0 0 15em;
+	margin: -2em 0 0 14em;
 }
 
 .gallery a {
