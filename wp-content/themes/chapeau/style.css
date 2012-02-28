@@ -212,6 +212,12 @@ h1 a:last-child {
 
 }
 
+.wrapper {
+	margin-top: 100px;
+	padding:0;
+
+}
+
 li {
 	margin:0;
 	padding:0;
