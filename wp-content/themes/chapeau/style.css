@@ -253,7 +253,7 @@ h1 a:last-child {
 
 }
 
-.nav li:hover a {
+.nav li:hover li {
 	left: auto;
 }
 
