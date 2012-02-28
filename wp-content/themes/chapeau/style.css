@@ -236,6 +236,9 @@ li a {
 .sub-menu a {
 	display: inline-block;
 	background-color: #809f96;
+	
+	margin:0;
+	padding:0;
 
 }
 
