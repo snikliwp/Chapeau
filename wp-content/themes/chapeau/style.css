@@ -239,8 +239,6 @@ li a {
 }
 .sub-menu a {
 	display: inline-block;
-	width: 13em;
-	background-color: #cfc;
 }
 
 .nav li ul {
