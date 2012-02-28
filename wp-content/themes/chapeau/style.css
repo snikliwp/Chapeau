@@ -2,7 +2,7 @@
 Theme Name: Chapeau Agricultural Society
 Theme URI: http://localhost/www/wilk0146/chapeau/
 Description: Chapeau Agricultural Society Web Page
-Author: Pat Wilkins, Roger van Koughnett, Priyanka Gita
+Author: Pat Wilkins
 Version: 1.0.0
 Tags: Agriculture Society
 */
@@ -26,6 +26,123 @@ Tags: Agriculture Society
 /**
  * @section Normalize
  */
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clear {
+	clear: both;
+}
+
+/* -------------------------------------- */
+
+
+
+/**
+ *  @section  General
+ */
+
+@font-face {
+	font-family: 'CopperPlateL';
+	src: url('fonts/COPRGTL.eot');
+	src: local('☺'), url('fonts/COPRGTL.woff') format('woff'), url('fonts/COPRGTL.ttf') format('truetype'), url('fonts/COPRGTL.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CopperPlateB';
+	src: url('fonts/COPRGTB.eot');
+	src: local('☺'), url('fonts/COPRGTB.woff') format('woff'), url('fonts/COPRGTB.ttf') format('truetype'), url('fonts/COPRGTB.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/**
+ *  @section  Layout
+ *  @subsection Footer
+ */
+
+
+
+figcaption {
+*/	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 97px;
+	margin: 0;
+	padding: 1em;
+	background-color: #f7f6eb;
+	border: 2px solid #edbb37;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+.slideshow {
+  height: 402px;
+  margin: 0 0 1.3em;
+  overflow: hidden;
+  padding: 4px 0;
+  position: relative;
+
+  background-color: #fff;
+  border-bottom: 1px solid #edbb37;
+  border-top: 1px solid #edbb37;
+  -moz-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
+  -webkit-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
+  box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.slides {
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 20000em;
+
+  border-bottom: 1px solid #aa282c;
+  border-top: 1px solid #aa282c;
+}
+
+.slide {
+  display: inline;
+  float: left;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 760px;
+}
+
+.slide .img {
+  width: 100%;
+}
+
+
+.product {
+	padding-left: 5em;
+}
+
 
 html {
 	background:url("images/HTML_background_image.jpg") no-repeat top center;
@@ -55,6 +172,10 @@ body {
 
 }
 
+.top a {
+	font-family:'CopperPlateB',Sans-Serif;
+}
+
 h1 {
 	height:46px;
 
@@ -78,7 +199,10 @@ h1 a:last-child {
 	text-decoration: none;
 	display:inline;
 	float:left;
+
 	margin:0;
+	padding:0;
+
 	width:25%;
 	height:900px;
 	text-align:right;
@@ -88,23 +212,78 @@ h1 a:last-child {
 
 }
 
-ul {
-	margin-top:100px;
-	list-style-type: none;
-	text-decoration: none;
+.wrapper {
+	margin-top: 100px;
+	padding:0;
+
 }
 
-li {
-	padding:8px;
-	padding-right:15px;
+/*li {
+	margin:0;
+	padding:0;
 }
 
 li a {
-	padding:8px;
-	padding-right:15px;
+	margin:0;
+	padding:0;
 
 	list-style-type: none;
 	text-decoration: none;
+}
+
+*/
+.nav, .nav ul {
+	list-style-type: none;
+	text-decoration: none;
+	margin:0;
+	padding:0;
+}
+
+.nav a {
+	display:block;
+	width: 13em;
+	
+}
+
+
+.nav li {
+	float:left;
+	width:13em;
+}
+
+.sub-menu ul {
+	position: absolute;
+	left: -999em;
+	width: 13em;
+}
+
+.sub-menu a {
+	display: inline-block;
+	background-color: #809f96;
+	width: 13em;
+	margin:0;
+	padding:0;
+
+}
+.sub-menu li ul ul {
+	margin: -1em 0 0 13em;
+
+}
+
+.nav li:hover ul {
+	left: auto;
+}
+
+.gallery a {
+	margin: 10px;
+	padding: 0px;
+	border: solid 10px #063;
+	float: left;
+	
+}
+
+.gallery img {
+	display: block;
 }
 
 .middle {
