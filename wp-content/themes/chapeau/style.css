@@ -70,76 +70,6 @@ Tags: Agriculture Society
 	font-style: normal;
 }
 
-.top a {
-	font-family:'CopperPlateB',Sans-Serif;
-	padding: 1em;
-}
-
-.gallery a {
-	margin: 10px;
-	padding: 0px;
-	border: solid 10px #063;
-	float: left;
-	
-}
-
-.gallery img {
-	display: block;
-}
-
-body {
-  height: auto;
-  margin: 0;
-  min-height: 100%;
-  min-width: 760px;
-  padding: 0;
-  position: relative;
-}
-/**
- *  @section  Layout
- */
-
-.wrapper {
-	clear: both;
-	margin: 0 auto;
-/*	max-width: 66em;
-*/	min-width: 760px;
-	font-family:'CopperPlateB',Sans-Serif;
-	padding: 0;
-	padding-left: 2em;
-	position: relative;
-	width: auto;
-}
-
-.nav, .nav ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.nav a {
-	display: inline-block;
-	width: 12em;
-	background-color: #cfc;
-}
-.sub-menu a {
-	display: inline-block;
-	width: 13em;
-	background-color: #cfc;
-}
-
-
-.nav li ul {
-	position: absolute;
-	width: 12em;
-	left: -999em;
-}
-
-.nav li:hover ul {
-	left: auto;
-	margin: -1.5em 0 0 12em;
-}
-
 
 /**
  *  @section  Layout
@@ -294,6 +224,57 @@ li a {
 	text-decoration: none;
 }
 
+.top a {
+	font-family:'CopperPlateB',Sans-Serif;
+	padding: 1em;
+}
+
+.gallery a {
+	margin: 10px;
+	padding: 0px;
+	border: solid 10px #063;
+	float: left;
+	
+}
+
+.gallery img {
+	display: block;
+}
+
+/**
+ *  @section  Layout
+ */
+
+
+/*.nav, .nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.nav a {
+	display: inline-block;
+	width: 12em;
+	background-color: #cfc;
+}
+.sub-menu a {
+	display: inline-block;
+	width: 13em;
+	background-color: #cfc;
+}
+
+
+.nav li ul {
+	position: absolute;
+	width: 12em;
+	left: -999em;
+}
+
+.nav li:hover ul {
+	left: auto;
+	margin: -1.5em 0 0 12em;
+}
+*/
 .middle {
 	margin:0;
 	width:50%;
