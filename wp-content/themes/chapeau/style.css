@@ -248,6 +248,8 @@ ul {
 
 .nav li {
 	width:13em;
+	text-align:right;
+
 }
 
 .sub-menu {
