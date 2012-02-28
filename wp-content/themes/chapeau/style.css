@@ -266,9 +266,10 @@ ul {
 	margin: -2em 0 0 14em;
 }
 
-a:hover, 
-a:selected {
+a:hover {
 	color:#edbb37;
+	background-color:#DFE6B5;
+
 }
 
 .gallery a {
