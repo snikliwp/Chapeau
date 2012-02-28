@@ -257,7 +257,7 @@ li a {
 .nav li ul {
 	position: absolute;
 	left: -999em;
-
+	width: 13em;
 	margin:0;
 	padding:0;
 
