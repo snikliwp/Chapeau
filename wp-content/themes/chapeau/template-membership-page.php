@@ -26,7 +26,7 @@ Template Name: Membership page
 </ul>
 
 <a title="Membership Application Form PDF" href="forms/ApplicationForm.pdf">Membership Application Form PDF</a>
-
+<p>Right-click the link to the PDF file, and then choose Save Target As from the pop-up menu.</p>
 
 <?php 
 setup_postdata($member_post);
