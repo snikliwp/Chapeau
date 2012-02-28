@@ -228,6 +228,23 @@ li a {
 	font-family:'CopperPlateB',Sans-Serif;
 }
 
+.sub-menu a {
+	display: inline-block;
+	width: 13em;
+	background-color: #cfc;
+}
+
+.nav li ul {
+	position: absolute;
+	width: 12em;
+	left: -999em;
+}
+
+.nav li:hover ul {
+	left: auto;
+	margin: -1.5em 0 0 12em;
+}
+
 .gallery a {
 	margin: 10px;
 	padding: 0px;
@@ -256,23 +273,8 @@ li a {
 	width: 12em;
 	background-color: #cfc;
 }
-.sub-menu a {
-	display: inline-block;
-	width: 13em;
-	background-color: #cfc;
-}
 
 
-.nav li ul {
-	position: absolute;
-	width: 12em;
-	left: -999em;
-}
-
-.nav li:hover ul {
-	left: auto;
-	margin: -1.5em 0 0 12em;
-}
 */
 
 
