@@ -168,10 +168,15 @@ body {
 }
 
 a {
-	color:#25472E;
+	color:#71907f;
 }
+
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
+}
+.top a:hover {
+	color:#cbc5a4;
+
 }
 
 h1 {
@@ -268,7 +273,7 @@ ul {
 }
 
 .nav a:hover {
-	color:#FFC;
+	color:#cbc5a4;
 	background-color:#4D825A;
 
 }
