@@ -168,11 +168,12 @@ body {
 }
 
 a {
-	color:#71907f;
+	color:#25472E;
 }
 
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
+	color:#71907f;
 }
 .top a:hover {
 	color:#cbc5a4;
