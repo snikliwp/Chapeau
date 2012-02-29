@@ -267,7 +267,7 @@ ul {
 	margin: -2em 0 0 14em;
 }
 
-a:hover {
+.nav a:hover {
 	color:#FFC;
 	background-color:#4D825A;
 
