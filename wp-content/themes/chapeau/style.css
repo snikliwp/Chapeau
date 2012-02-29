@@ -265,6 +265,8 @@ ul {
 	display: block;
 	width: 13em;
 	margin:0;
+	text-align:left;
+
 	
 }
 
@@ -280,7 +282,7 @@ ul {
 }
 
 #menu-primary {
-	padding-left:12.5em;
+	padding-left:12.6em;
 }
 
 .gallery a {
