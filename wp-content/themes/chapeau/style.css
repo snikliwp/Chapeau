@@ -279,6 +279,10 @@ ul {
 
 }
 
+#menu-primary {
+	margin-left:4em;
+}
+
 .gallery a {
 	margin: 10px;
 	padding: 0px;
