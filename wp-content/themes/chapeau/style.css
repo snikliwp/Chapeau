@@ -167,6 +167,9 @@ body {
 
 }
 
+a {
+	color:#003300;
+}
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
 }
