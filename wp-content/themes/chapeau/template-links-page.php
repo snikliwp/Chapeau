@@ -8,10 +8,10 @@ Template Name: links page
 	the_post();
 	$links_post = $post;
 ?>
-
-<p>This is the links page</p>
 <article>
 	<div class="middle">
+
+<p>This is the links page</p>
 <?php 
 setup_postdata($links_post);
 the_content();
