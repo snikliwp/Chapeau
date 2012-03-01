@@ -274,7 +274,8 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1.5em 0 0 25em;
+	margin: -1.5em 0 0 14em;
+	padding:.25em;
 }
 
 .nav a:hover {
