@@ -245,6 +245,8 @@ ul {
 	display:block;
 	width: 25em;
 	text-decoration: none;
+	padding:.5em;
+	padding-right:2em;
 	
 }
 
@@ -265,9 +267,10 @@ ul {
 
 .sub-menu a {
 	display: block;
-	width: 25em;
+	width: 13em;
 	margin:0;
 	text-align:left;
+	padding-left:2em;
 
 	
 }
