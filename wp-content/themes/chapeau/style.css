@@ -268,14 +268,11 @@ ul {
 	width: 13em;
 	margin:0;
 	text-align:left;
-	padding-left:2em;
-
-	
 }
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2em 0 0 25em;
+	margin: -2.5em 0 0 100%;
 }
 
 .nav a:hover {
