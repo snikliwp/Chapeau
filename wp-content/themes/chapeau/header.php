@@ -10,7 +10,7 @@
 <body>
 
 <header class="top">
-	<h1><a href="#">Francais</a><a href="#">English</a></h1>
+	<h1 class="topLinks"><a href="#">Francais</a><a href="#">English</a></h1>
 </header>
 
 
