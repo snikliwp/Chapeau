@@ -8,9 +8,11 @@ Template Name: sales page
 	the_post();
 	$sales_post = $post;
 ?>
+<article>
+	<div class="middle">
 
 <p>This is the sales page</p>
-
+</div>
 <?php 
 setup_postdata($sales_post);
 the_content();

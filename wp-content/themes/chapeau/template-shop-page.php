@@ -8,9 +8,12 @@ Template Name: shop page
 	the_post();
 	$shop_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 <p>This is the shopping page</p>
 
-
+</div>
 <?php 
 setup_postdata($shop_post);
 the_content();

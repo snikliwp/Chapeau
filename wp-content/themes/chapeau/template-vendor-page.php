@@ -8,6 +8,8 @@ Template Name: vendor page
 	the_post();
 	$vendor_post = $post;
 ?>
+<article>
+	<div class="middle">
 
 <p>This is the Vendor page</p>
 
@@ -20,12 +22,12 @@ Template Name: vendor page
 	<li>hapeau Farmer’s Market Rules and Regulations</li>
 </ul>
 
-<p>Our rules and entry forms are available as PDF files. Click <a href="http://get.adobe.com/reader/" target="_blank">here </a> to get Adbobe Acrobat Reader to view and print these files.)
+<p>Our rules and entry forms are available as PDF files. Click <a href="http://get.adobe.com/reader/" target="_blank">here </a> to get Adbobe Acrobat Reader to view and print these files.</p>
 
 <a href="">Provincial Health Unit Application Form PDF</a>
 
 <a href="">Farmer’s Market Vendor’s Application Form PDF</a>
-
+</div>
 
 
 <?php 

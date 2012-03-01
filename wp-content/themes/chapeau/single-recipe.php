@@ -11,6 +11,9 @@
 		, 'post_parent' => $post->ID
 	));
 ?>
+<article>
+	<div class="middle">
+
 
 <article class="product">
 	<div itemscope itemtype="http://schema.org/Recipe">
@@ -43,6 +46,7 @@
 	</div>
 
 </article>
+</div>
 
 <?php //endforeach; ?>
 

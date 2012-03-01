@@ -8,6 +8,8 @@ Template Name: where page
 	the_post();
 	$where_post = $post;
 ?>
+<article>
+	<div class="middle">
 
 <p>This is the Where and When page</p>
 
@@ -23,7 +25,7 @@ Template Name: where page
 
 <h2>Season</h2>
 <p>TBA</p>
-
+</div>
 <?php 
 setup_postdata($where_post);
 the_content();

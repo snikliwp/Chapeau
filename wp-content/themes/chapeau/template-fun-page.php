@@ -8,9 +8,12 @@ Template Name: fun page
 	the_post();
 	$fun_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 
 <p>This is the fun page</p>
-
+</div>
 <?php 
 setup_postdata($fun_post);
 the_content();

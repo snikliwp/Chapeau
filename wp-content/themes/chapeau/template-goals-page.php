@@ -8,6 +8,9 @@ Template Name: Goals and Objectives page
 	the_post();
 	$goals_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 
 <p>This is the Goals and Objectives page</p>
 <ul>
@@ -18,6 +21,7 @@ Template Name: Goals and Objectives page
 	<li>to contribute to community development through activities such as a Farmer’s Market, a Community Garden, an annual Calendar</li>
 	<li>to increase Society membership</li>
 </ul>
+</div>
 
 <?php 
 setup_postdata($goals_post);

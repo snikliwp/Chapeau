@@ -8,6 +8,9 @@ Template Name: Board page
 	the_post();
 	$board_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 
 <p>This is the Board of Directors page</p>
 <table border="1">
@@ -77,7 +80,7 @@ Template Name: Board page
 </tr>
 
 </table>
-</
+</div>
 
 <?php 
 setup_postdata($board_post);
