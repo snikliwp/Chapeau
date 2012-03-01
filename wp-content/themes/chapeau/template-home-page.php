@@ -17,8 +17,6 @@ Template Name: Home page
         the_content();
          ?>
 	</div>
-	<div class="right">Events</div>
-</article>
 
 
 <?php get_footer(); ?>

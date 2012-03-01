@@ -1,3 +1,6 @@
+	<div class="right">Events</div>
+</article>
+
 <div id="farmhouse"> </div>
 <div id="haybail"> </div>
 
