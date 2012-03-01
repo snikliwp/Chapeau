@@ -175,8 +175,10 @@ a {
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
 	color:#71907f;
-	padding:2px;
+	margin-bottom:3px;
+	font-size:1.5em;
 }
+
 .top a:hover {
 	color:#cbc5a4;
 
