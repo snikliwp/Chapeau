@@ -143,14 +143,15 @@ html {
 	background:url("images/HTML_background_image.jpg") no-repeat top center;
 	background-size:100% 100%;
 	background-color:#809f96;
+	font: normal 100%/1.5 sans-serif;
 }
 
 body {
 	margin:0 auto;
 	padding:0;
 	text-align:center;
-	font-family:"Copperplate Gothic";
-	width:1500px;
+/*	font-family:"Copperplate Gothic";
+*/	width:1500px;
 	height:100%;
 }
 
@@ -220,6 +221,7 @@ h1 a:last-child {
 	margin-top: 100px;
 	padding:0;
 	text-align:right;
+	font-family:"CopperPlateB";
 
 
 }
@@ -272,7 +274,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2em 0 0 14em;
+	margin: -2.5em 0 0 14.2em;
 }
 
 .nav a:hover {
