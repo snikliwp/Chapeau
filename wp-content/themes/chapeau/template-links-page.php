@@ -10,12 +10,13 @@ Template Name: links page
 ?>
 
 <p>This is the links page</p>
-
+<article>
+	<div class="middle">
 <?php 
 setup_postdata($links_post);
 the_content();
  ?>
-
+</div>
 
 
 <?php get_footer(); ?>
