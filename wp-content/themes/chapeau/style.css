@@ -243,7 +243,6 @@ ul {
 
 .nav a {
 	display:block;
-	width: 25em;
 	text-decoration: none;
 	padding:.5em;
 	padding-right:2em;
@@ -252,7 +251,7 @@ ul {
 
 
 .nav li {
-	width: 25em;
+	width: 100%;
 	text-align:right;
 
 }
@@ -260,7 +259,6 @@ ul {
 .sub-menu {
 	position: absolute;
 	left: -999em;
-	width: 25em;
 	background-color:#5e8771;
 	box-shadow:3px 3px 5px rgba(0, 0, 0, .5);
 }
@@ -277,7 +275,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1.5em 0 0 25em;
+	margin: -2em 0 0 25em;
 }
 
 .nav a:hover {
