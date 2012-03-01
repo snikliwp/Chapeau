@@ -10,7 +10,8 @@ Template Name: Recipes Page
 //	$berry_post = $post;
 ?>
 
-
+<article>
+	<div class="middle">
 <?php 
 	$recipes = get_posts(array(
 		"post_type" => "recipe", // The kind of post that we want to display
@@ -28,6 +29,7 @@ Template Name: Recipes Page
 
 
 
+
 <article class="">
 	<div class="unit-row product" itemscope itemtype="http://schema.org/Recipe">
 		<div class="unit product-image">
@@ -41,10 +43,11 @@ Template Name: Recipes Page
 		</div> <!--end of div class unit triple-unit-->
 	</div> <!--end of div class unit-row-->
 <br>
+
 </article> <!--end of article class product-->
 
 <?php endforeach; ?>
-
+</div>
 <?php 
 //setup_postdata($berry_post);
 the_content();

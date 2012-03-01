@@ -8,12 +8,15 @@ Template Name: Vendor List page
 	the_post();
 	$vendorlist_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 
 <p>This is the Vendor List page</p>
 
 <p>TBA</p>
 
-
+</div>
 <?php 
 setup_postdata($vendorlist_post);
 the_content();

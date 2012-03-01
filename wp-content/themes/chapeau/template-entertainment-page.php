@@ -8,6 +8,9 @@ Template Name: enertainment page
 	the_post();
 	$enertainment_post = $post;
 ?>
+<article>
+	<div class="middle">
+
 
 <p>This is the Entertainment page</p>
 
@@ -20,7 +23,7 @@ Template Name: enertainment page
 
 <a href="">Entertainment Application Form PDF</a>
 
-
+</div>
 
 <?php 
 setup_postdata($enertainment_post);
