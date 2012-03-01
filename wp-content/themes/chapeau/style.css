@@ -272,7 +272,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2.5em 0 0 26.5em;
+	margin: -2.5em 0 0 26.51em;
 }
 
 .nav a:hover {
@@ -295,7 +295,7 @@ ul {
 
 .middle {
 	padding-top:100px;
-	margin:1%;
+	margin:0 1% 0 1%;
 	width:50%;
 	height:900px;
 	background-color:rgba(255,255,255,.8);
