@@ -250,7 +250,7 @@ ul {
 
 
 .nav li {
-	width:13em;
+	width: 25em;
 	text-align:right;
 
 }
@@ -258,14 +258,14 @@ ul {
 .sub-menu {
 	position: absolute;
 	left: -999em;
-	width: 13em;
+	width: 25em;
 	background-color:#5e8771;
 	box-shadow:3px 3px 5px rgba(0, 0, 0, .5);
 }
 
 .sub-menu a {
 	display: block;
-	width: 13em;
+	width: 25em;
 	margin:0;
 	text-align:left;
 
@@ -274,7 +274,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2.5em 0 0 14.0em;
+	margin: -1.5em 0 0 25em;
 }
 
 .nav a:hover {
