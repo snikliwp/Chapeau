@@ -238,13 +238,15 @@ ul {
 	list-style-type: none;
 	margin:0;
 	padding:0;
+	padding-right:2.25em;
+
 }
 
 .nav a {
 	display:block;
 	width: 25em;
 	text-decoration: none;
-	padding-right:2.5em;
+	padding-right:2.25em;
 	
 }
 
@@ -274,7 +276,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -1.5em 0 0 27em;
+	margin: -1.5em 0 0 26.25em;
 	padding:.25em;
 }
 
