@@ -175,8 +175,8 @@ a {
 .top a {
 	font-family:'CopperPlateB',Sans-Serif;
 	color:#71907f;
+	padding:2px;
 }
-
 .top a:hover {
 	color:#cbc5a4;
 
