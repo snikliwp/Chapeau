@@ -190,16 +190,6 @@ a {
 	background:url("images/HEADER_links_image.png") no-repeat center;
 }
 
-h1 a:first-child {
-	text-decoration: none;
-	margin-right:3em;
-}
-
-h1 a:last-child {
-	text-decoration: none;
-	margin-left:3em;
-}
-
 .left {
 	list-style-type: none;
 	text-decoration: none;
