@@ -17,7 +17,7 @@ Template Name: photo page
 setup_postdata($photo_post);
 the_content();
  ?>
-
+	</div>
 
 
 <?php get_footer(); ?>
