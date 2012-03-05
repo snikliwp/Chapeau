@@ -9,6 +9,8 @@ Template Name: Membership page
 	$member_post = $post;
 ?>
 
+<article>
+	<div class="middle">
 <p>This is the Membership page</p>
 <p>Our members are our strength and over the years we have had the benefit of many highly motivated and dedicated members from all our local communities.</p>
 <p>Membership is open to anyone who accepts the mission of the Society and who is prepared, on a volunteer basis, to contribute responsibly to the work of  the Society.</p>
@@ -32,7 +34,7 @@ Template Name: Membership page
 setup_postdata($member_post);
 the_content();
  ?>
-
+	</div>
 
 
 <?php get_footer(); ?>
