@@ -95,8 +95,8 @@ function create_recipes_post_type() {
 		));
 }
 /**************************************************************************************/
-add_action("init", "create_advert_post_type");
-function create_advert_post_type() {
+add_action("init", "create_advertisment_post_type");
+function create_advertisment_post_type() {
 	
 	$labels = array(
 		"name" => "Advertisments", // plural version of the post name
@@ -104,9 +104,9 @@ function create_advert_post_type() {
   		"add_new_item" => "Add a new advertisment" // Changes title from add new post to add new contact
 		);
 				
-	register_post_type("advert", array(
+	register_post_type("advertisment", array(
 		"labels" => $labels,
 		"public" => true,
-		"supports" => array("advert") // default is array("title", "editor")
+		"supports" => array("advertisment") // default is array("title", "editor")
 		));
 }
