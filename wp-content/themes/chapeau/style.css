@@ -272,7 +272,7 @@ ul {
 }
 
 .gallery a {
-	margin: 10px;
+	margin: 10px 50px 10px 50px;
 	padding: 0px;
 	border: solid 10px #063;
 	float: left;
