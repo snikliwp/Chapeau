@@ -12,14 +12,13 @@ Template Name: market page
 	<div class="middle">
 
 
-<p>This is the market page</p>
 
-</div>
 <?php 
 setup_postdata($market_post);
 the_content();
  ?>
 
+</div>
 
 
 <?php get_footer(); ?>
