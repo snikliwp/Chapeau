@@ -12,14 +12,13 @@ Template Name: Gardens page
 	<div class="middle">
 
 
-<p>This is the gardens page</p>
 
-</div>
 <?php 
 setup_postdata($gardens_post);
 the_content();
  ?>
 
+</div>
 
 
 <?php get_footer(); ?>

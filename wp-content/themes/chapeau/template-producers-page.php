@@ -11,13 +11,12 @@ Template Name: producers page
 <article>
 	<div class="middle">
 
-<p>This is the producers page</p>
-</div>
 <?php 
 setup_postdata($producers_post);
 the_content();
  ?>
 
+</div>
 
 
 <?php get_footer(); ?>
