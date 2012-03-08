@@ -10,7 +10,6 @@ Template Name: Education page
 ?>
 <article>
 	<div class="middle">
-<p>This is the education page</p>
 
 <?php 
 setup_postdata($education_post);
