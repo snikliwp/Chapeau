@@ -78,23 +78,6 @@ function url () {
 //		));
 //}
 /**************************************************************************************/
-//add_action("init", "create_products_post_type");
-//function create_products_post_type() {
-//	
-//	$labels = array(
-//		"name" => "Products", // plural version of the post name
-//		"singular_name" => "Product",
-//  		"add_new_item" => "Add New Product" // Changes title from add new post to add new contact
-//		);
-//				
-//	register_post_type("product", array(
-//		"labels" => $labels,
-//		"public" => true,
-//		"supports" => array("title") // default is array("title", "editor")
-//		));
-//}
-//
-/**************************************************************************************/
 add_action("init", "create_recipes_post_type");
 function create_recipes_post_type() {
 	
@@ -111,8 +94,8 @@ function create_recipes_post_type() {
 		));
 }
 /**************************************************************************************/
-add_action("init", "create_advertisment_post_type");
-function create_history_post_type() {
+add_action("init", "create_advert_post_type");
+function create_advert_post_type() {
 	
 	$labels = array(
 		"name" => "Advertisments", // plural version of the post name
@@ -120,9 +103,9 @@ function create_history_post_type() {
   		"add_new_item" => "Add a new advertisment" // Changes title from add new post to add new contact
 		);
 				
-	register_post_type("advertisment", array(
+	register_post_type("advert", array(
 		"labels" => $labels,
 		"public" => true,
-		"supports" => array("advertisment") // default is array("title", "editor")
+		"supports" => array("advert") // default is array("title", "editor")
 		));
 }
