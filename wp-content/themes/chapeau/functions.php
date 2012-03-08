@@ -43,57 +43,57 @@ function url () {
    /* we only want this function to be called when Wordpress is ready */
    // the add_action function allows us to call our own function at a specific time
 /**************************************************************************************/
-add_action("init", "create_contacts_post_type");
-
-function create_contacts_post_type() {
-	
-	$labels = array(
-		"name" => "Contacts", // plural version of the post name
-		"singular_name" => "Contact",
-  		"add_new_item" => "Add New Contact" // Changes title from add new post to add new contact
-		);
-				
-	register_post_type("contact", array(
-		"labels" => $labels,
-		"public" => true,
-		"supports" => array("title") // default is array("title", "editor")
-		));
-		
-}
+//add_action("init", "create_contacts_post_type");
+//
+//function create_contacts_post_type() {
+//	
+//	$labels = array(
+//		"name" => "Contacts", // plural version of the post name
+//		"singular_name" => "Contact",
+//  		"add_new_item" => "Add New Contact" // Changes title from add new post to add new contact
+//		);
+//				
+//	register_post_type("contact", array(
+//		"labels" => $labels,
+//		"public" => true,
+//		"supports" => array("title") // default is array("title", "editor")
+//		));
+//		
+//}
 /**************************************************************************************/
-add_action("init", "create_promotions_post_type");
-
-function create_promotions_post_type() {
-	
-	$labels = array(
-		"name" => "Promotions", // plural version of the post name
-		"singular_name" => "Promotion",
-  		"add_new_item" => "Add New Promotion" // Changes title from add new post to add new contact
-		);
-				
-	register_post_type("promotion", array(
-		"labels" => $labels,
-		"public" => true,
-		"supports" => array("title") // default is array("title", "editor")
-		));
-}
+//add_action("init", "create_promotions_post_type");
+//
+//function create_promotions_post_type() {
+//	
+//	$labels = array(
+//		"name" => "Promotions", // plural version of the post name
+//		"singular_name" => "Promotion",
+//  		"add_new_item" => "Add New Promotion" // Changes title from add new post to add new contact
+//		);
+//				
+//	register_post_type("promotion", array(
+//		"labels" => $labels,
+//		"public" => true,
+//		"supports" => array("title") // default is array("title", "editor")
+//		));
+//}
 /**************************************************************************************/
-add_action("init", "create_products_post_type");
-function create_products_post_type() {
-	
-	$labels = array(
-		"name" => "Products", // plural version of the post name
-		"singular_name" => "Product",
-  		"add_new_item" => "Add New Product" // Changes title from add new post to add new contact
-		);
-				
-	register_post_type("product", array(
-		"labels" => $labels,
-		"public" => true,
-		"supports" => array("title") // default is array("title", "editor")
-		));
-}
-
+//add_action("init", "create_products_post_type");
+//function create_products_post_type() {
+//	
+//	$labels = array(
+//		"name" => "Products", // plural version of the post name
+//		"singular_name" => "Product",
+//  		"add_new_item" => "Add New Product" // Changes title from add new post to add new contact
+//		);
+//				
+//	register_post_type("product", array(
+//		"labels" => $labels,
+//		"public" => true,
+//		"supports" => array("title") // default is array("title", "editor")
+//		));
+//}
+//
 /**************************************************************************************/
 add_action("init", "create_recipes_post_type");
 function create_recipes_post_type() {
@@ -111,18 +111,18 @@ function create_recipes_post_type() {
 		));
 }
 /**************************************************************************************/
-add_action("init", "create_history_post_type");
+add_action("init", "create_advertisment_post_type");
 function create_history_post_type() {
 	
 	$labels = array(
-		"name" => "History", // plural version of the post name
-		"singular_name" => "History",
-  		"add_new_item" => "Add New History" // Changes title from add new post to add new contact
+		"name" => "Advertisments", // plural version of the post name
+		"singular_name" => "Advertisment",
+  		"add_new_item" => "Add a new advertisment" // Changes title from add new post to add new contact
 		);
 				
-	register_post_type("history", array(
+	register_post_type("advertisment", array(
 		"labels" => $labels,
 		"public" => true,
-		"supports" => array("title") // default is array("title", "editor")
+		"supports" => array("advertisment") // default is array("title", "editor")
 		));
 }
