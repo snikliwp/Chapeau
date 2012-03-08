@@ -12,7 +12,7 @@ Template Name: fun page
 	<div class="middle">
 
 
-<p>This is the fun page</p>
+<!--<p>This is the fun page</p>-->
 </div>
 <?php 
 setup_postdata($fun_post);
