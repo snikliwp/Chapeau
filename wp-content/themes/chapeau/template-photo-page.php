@@ -10,14 +10,15 @@ Template Name: photo page
 ?>
 <article>
 	<div class="middle">
-
+<div class="photo">
 <p>This is the photo page</p>
-</div>
+
 <?php 
 setup_postdata($photo_post);
 the_content();
- ?>
-	</div>
+?>
+</div>
+</div>
 
 
 <?php get_footer(); ?>
