@@ -5,7 +5,9 @@
 <div id="haybail"> </div>
 
 <footer class="bottom">
-	<div class="footercontent">Societe D'Agriculture de <span>Chapeau</span> Agricultural Society</div>
+	<div class="footercontent">Societe D'Agriculture de <span>Chapeau</span> Agricultural Society
+    <p class="copyright">© MMXII | Societe D'Agriculture de Chapeau, Chapeau Agricultural Society</p>
+    </div>
 </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>

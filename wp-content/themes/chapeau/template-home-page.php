@@ -10,7 +10,7 @@ Template Name: Home page
 ?>
 
 <article>
-	<div class="middle">
+	<div class="home-middle">
 <h2><?php the_title ?></h2>
 		<?php 
         setup_postdata($home_post);
