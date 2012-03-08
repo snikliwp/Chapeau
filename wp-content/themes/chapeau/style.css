@@ -256,11 +256,17 @@ ul {
 }
 
 .gallery a {
-	margin: 10px 50px 10px 50px;
+	margin: 10px;
 	padding: 0px;
 	border: solid 10px #063;
 	float: left;
 	
+}
+
+.photo{
+   /*background-color:#3FF;*/
+   padding:0px 50px 20px 70px;
+   margin:10px;	
 }
 
 .gallery img {
