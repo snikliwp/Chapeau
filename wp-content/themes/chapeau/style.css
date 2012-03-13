@@ -166,6 +166,7 @@ a {
 	color:#71907f;
 	margin:1em;
 	margin-top:0;
+	font-size:36px;
 }
 
 .top a:hover {
@@ -253,7 +254,7 @@ ul {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2.5em 0 0 26.6em;
+	margin: -2em 0 0 20.5em;
 }
 
 .nav a:hover {
@@ -286,7 +287,7 @@ ul {
 	margin-left:2%;
 	margin-right:2%;
 	width:46%;
-	height:900px;
+	height:720px;
 	background-color:rgba(255,255,255,.8);
 	display:inline;
 	float:left;
@@ -298,7 +299,7 @@ ul {
 	margin-left:1%;
 	margin-right:1%;
 	width:48%;
-	height:900px;
+	height:720px;
 	background-image:url(images/logo.png);
 	background-position:center;
 	background-repeat:no-repeat;
@@ -323,6 +324,7 @@ ul {
 .bottom {
 	margin:0;
 	width:1152px;
+	height:288px;
 	display:inline;
 	float:left;
 	background-image:url("images/FOOTER_background.png");
