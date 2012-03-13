@@ -73,53 +73,6 @@ figcaption {
 	border-radius: 10px;
 }
 
-
-.slideshow {
-  height: 402px;
-  margin: 0 0 1.3em;
-  overflow: hidden;
-  padding: 4px 0;
-  position: relative;
-
-  background-color: #fff;
-  border-bottom: 1px solid #edbb37;
-  border-top: 1px solid #edbb37;
-  -moz-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  -webkit-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-.slides {
-  height: 400px;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 20000em;
-
-  border-bottom: 1px solid #aa282c;
-  border-top: 1px solid #aa282c;
-}
-
-.slide {
-  display: inline;
-  float: left;
-  height: 400px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 760px;
-}
-
-.slide .img {
-  width: 100%;
-}
-
-
 html {
 	background:url("images/HTML_background_image.jpg") no-repeat top center;
 	background-size:100% 100%;
