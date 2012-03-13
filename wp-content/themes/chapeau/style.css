@@ -125,6 +125,7 @@ html {
 	background-size:100% 100%;
 	background-color:#809f96;
 	font: normal 100%/1.5 sans-serif;
+	height:100%;
 }
 
 body {
@@ -132,8 +133,10 @@ body {
 	padding:0;
 	text-align:center;
 /*	font-family:"Copperplate Gothic";
-*/	width:1500px;
-	height:100%;
+*/	width:1152px;
+	min-height:720px;
+	
+	position:relative;
 }
 
 .top {
