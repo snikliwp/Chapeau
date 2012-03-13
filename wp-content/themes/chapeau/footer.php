@@ -8,8 +8,6 @@
     </div>
 </footer>
 
-<div id="farmhouse"> </div>
-<div id="haybail"> </div>
 
 
 
@@ -21,6 +19,9 @@
 <?php wp_footer(); ?>
 
 </div>
+
+<div id="farmhouse"> </div>
+<div id="haybail"> </div>
 
 </body>
 </html>
