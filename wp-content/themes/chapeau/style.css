@@ -300,7 +300,6 @@ ul {
 	width:48%;
 	height:900px;
 	background-image:url(images/logo.png);
-	background-size:555px 555px;
 	background-position:center;
 	background-repeat:no-repeat;
 	display:inline;
@@ -323,12 +322,11 @@ ul {
 
 .bottom {
 	margin:0;
-	width:100%;
+	width:1152px;
 	display:inline;
 	float:left;
 	background-image:url("images/FOOTER_background.png");
 	background-repeat:no-repeat;
-	background-size:700px 700px;
 
 }
 
