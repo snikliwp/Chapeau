@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<div>
+<div class="headerfix">
 
-<header class="top">
+<div class="top">
 	<h1 class="topLinks"><a href="#">Francais</a><a href="#">English</a></h1>
-</header>
+</div>
 
 <div class="all">
 
