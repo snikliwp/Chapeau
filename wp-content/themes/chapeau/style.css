@@ -280,6 +280,7 @@ ul {
 
 .gallery img {
 	display: block;
+	float:left;
 }
 
 
