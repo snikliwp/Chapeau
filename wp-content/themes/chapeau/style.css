@@ -297,8 +297,9 @@ ul {
 	background-color:#FFF;
 	display:inline;
 	float:left;
-	height:532px;
+	height:680px;
 	overflow-y:scroll;
+	z-index : 100;
 }
 
 .middle p:first-child{
@@ -346,6 +347,10 @@ ul {
 
 }
 
+
+
+
+
 .bottom {
 	margin:0;
 	width:1152px;
@@ -354,7 +359,9 @@ ul {
 	float:left;
 	background-image:url("images/FOOTER_background.png");
 	background-repeat:no-repeat;
-
+	
+	positon:absolute;
+    
 }
 
 .footercontent {
