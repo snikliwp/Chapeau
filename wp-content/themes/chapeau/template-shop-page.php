@@ -22,6 +22,7 @@ setup_postdata($shop_post);
 the_content();
  ?>
 
+</div>
 
 
 <?php get_footer(); ?>
