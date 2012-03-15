@@ -23,5 +23,7 @@
 <div id="farmhouse"> </div>
 <div id="haybail"> </div>
 
+</footer>
+
 </body>
 </html>

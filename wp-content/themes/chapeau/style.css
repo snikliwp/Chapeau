@@ -153,6 +153,9 @@ body {
 	height:46px;
 	background:url("images/HEADER_background_tiled.png") repeat-x;
 	background-size:100% 100%;
+	
+
+	
 
 }
 
@@ -178,6 +181,7 @@ a {
 	height:46px;
 
 	margin:0;
+	margin-left:576px;
 	padding:0;
 	background:url("images/HEADER_links_image.png") no-repeat center;
 }
@@ -281,17 +285,35 @@ ul {
 	display: block;
 }
 
+
 .middle {
-	padding-top:100px;
 	margin:0;
 	margin-left:2%;
 	margin-right:2%;
+	margin-top:100px;
 	width:46%;
-	height:532px;
 	background-color:#FFF;
 	display:inline;
 	float:left;
+	height:532px;
+	overflow-y:scroll;
 }
+
+.middle p:first-child{
+	margin-top:.6em;
+}
+
+.middle p{
+	margin:1em;
+}
+
+.middle:-webkit-scrollbar              { /* 1 */ }
+.middle:-webkit-scrollbar-button       { /* 2 */ }
+.middle:-webkit-scrollbar-track        { /* 3 */ }
+.middle:-webkit-scrollbar-track-piece  { /* 4 */ }
+.middle:-webkit-scrollbar-thumb        { /* 5 */ }
+.middle:-webkit-scrollbar-corner       { /* 6 */ }
+.middle:-webkit-resizer                { /* 7 */ }
 
 .home-middle {
 	padding-top:100px;
