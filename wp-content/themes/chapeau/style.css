@@ -292,8 +292,9 @@ ul {
 	background-color:#FFF;
 	display:inline;
 	float:left;
-	height:532px;
+	height:680px;
 	overflow-y:scroll;
+	z-index : 100;
 }
 
 .middle p:first-child{
@@ -361,6 +362,10 @@ background: rgba(255,0,0,0.4);
 
 }
 
+
+
+
+
 .bottom {
 	margin:0;
 	width:1152px;
@@ -369,7 +374,9 @@ background: rgba(255,0,0,0.4);
 	float:left;
 	background-image:url("images/FOOTER_background.png");
 	background-repeat:no-repeat;
-
+	
+	positon:absolute;
+    
 }
 
 .footercontent {
