@@ -292,9 +292,9 @@ ul {
 	background-color:#FFF;
 	display:inline;
 	float:left;
-	height:680px;
+	height:532px;
 	overflow-y:scroll;
-	z-index : 100;
+	/*z-index : 100;*/
 }
 
 .middle p:first-child{
