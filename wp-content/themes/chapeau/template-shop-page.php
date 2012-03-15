@@ -10,11 +10,11 @@ Template Name: shop page
 ?>
 <article>
 	
-    <?php /*?><div class="middle"> </div><?php */?>
-    <div class="middle1">
+    
+    <div class="middle">
 <p>This is the shopping page</p>
   
-    </div>
+   
 
 
 <?php 
