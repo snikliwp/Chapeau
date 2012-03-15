@@ -129,7 +129,6 @@ html {
 body {
 	margin:0 auto;
 	padding:0;
-	text-align:center;
 /*	font-family:"Copperplate Gothic";
 */	
 	
@@ -140,12 +139,6 @@ body {
 	width:1152px;
 	height:720px;
 	margin:0 auto;
-}
-
-.headerfix {
-	width:1152px;
-	margin:0 auto;
-
 }
 
 .top {
@@ -173,6 +166,7 @@ a {
 	margin:1em;
 	margin-top:0;
 	font-size:36px;
+
 }
 
 .top a:hover {
@@ -181,9 +175,10 @@ a {
 }
 
 .topLinks {
+	text-align:center;
 	height:46px;
-
-	margin:0;
+	width:1152px;	
+	margin:0 auto;
 	padding:0;
 	background:url("images/HEADER_links_image.png") no-repeat center;
 }
@@ -310,13 +305,28 @@ ul {
 	margin:1em;
 }
 
-.middle:-webkit-scrollbar              { /* 1 */ }
-.middle:-webkit-scrollbar-button       { /* 2 */ }
-.middle:-webkit-scrollbar-track        { /* 3 */ }
-.middle:-webkit-scrollbar-track-piece  { /* 4 */ }
-.middle:-webkit-scrollbar-thumb        { /* 5 */ }
-.middle:-webkit-scrollbar-corner       { /* 6 */ }
-.middle:-webkit-resizer                { /* 7 */ }
+.middle:-webkit-scrollbar              {
+	 /* 1 */ 
+}
+.middle:-webkit-scrollbar-button       {
+	 /* 2 */ 
+
+}
+.middle:-webkit-scrollbar-track        {
+	 /* 3 */ 
+}
+.middle:-webkit-scrollbar-track-piece  {
+	 /* 4 */ 
+}
+.middle:-webkit-scrollbar-thumb        {
+	 /* 5 */ 
+}
+.middle:-webkit-scrollbar-corner       {
+	 /* 6 */ 
+}
+.middle:-webkit-resizer                {
+	 /* 7 */ 
+}
 
 .home-middle {
 	padding-top:100px;
@@ -344,6 +354,9 @@ ul {
 	background-image:url("images/MIDDLE_SIDES_background.png");
 	background-repeat:no-repeat;
 
+	text-align:center;
+	font-family:'CopperPlateB',Sans-Serif;
+	color:#25472E;
 
 }
 
@@ -365,6 +378,8 @@ ul {
 }
 
 .footercontent {
+	text-align:center;
+
 	font-family:'CopperPlateB',Sans-Serif;
 	color:#71907f;
 	font-size:2em;

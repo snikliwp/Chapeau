@@ -9,12 +9,7 @@ Template Name: shop page
 	$shop_post = $post;
 ?>
 <article>
-	
-    
-    <div class="middle">
-<p>This is the shopping page</p>
-  
-   
+	<div class="middle">
 
 
 <?php 
