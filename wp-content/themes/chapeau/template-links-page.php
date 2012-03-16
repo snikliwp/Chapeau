@@ -11,14 +11,12 @@ Template Name: links page
 <article>
 	<div class="middle">
 
-<p>This is the links page</p>
-
+<!--<p>This is the links page</p>-->
 <?php 
 setup_postdata($links_post);
 the_content();
  ?>
 </div>
-
 
 
 <?php get_footer(); ?>

@@ -10,15 +10,14 @@ Template Name: shop page
 ?>
 <article>
 	<div class="middle">
-<p>This is the shopping page</p>
 
 
 <?php 
 setup_postdata($shop_post);
 the_content();
  ?>
-</div>
 
+</div>
 
 
 <?php get_footer(); ?>

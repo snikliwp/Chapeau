@@ -13,7 +13,6 @@ Template Name: sales page
 
 <p>This is the sales page</p>
 </div>
-
 <?php 
 setup_postdata($sales_post);
 the_content();

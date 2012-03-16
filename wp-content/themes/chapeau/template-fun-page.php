@@ -8,8 +8,6 @@ Template Name: fun page
 	the_post();
 	$fun_post = $post;
 ?>
-
-<p>This is the fun page</p>
 <article>
 	<div class="middle">
 
@@ -18,9 +16,8 @@ Template Name: fun page
 setup_postdata($fun_post);
 the_content();
  ?>
+
 </div>
-
-
 
 <?php get_footer(); ?>
 
