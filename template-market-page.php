@@ -10,7 +10,7 @@ Template Name: market page
 ?>
 <article>
 	<div class="middle">
-
+<p>This is the market page</p>
 
 
 <?php 

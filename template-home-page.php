@@ -10,13 +10,15 @@ Template Name: Home page
 ?>
 
 <article>
-	<div class="home-middle">
+	<div class="middle">
 <h2><?php the_title ?></h2>
 		<?php 
         setup_postdata($home_post);
         the_content();
          ?>
 	</div>
+	<div class="right">Events</div>
+</article>
 
 
 <?php get_footer(); ?>
