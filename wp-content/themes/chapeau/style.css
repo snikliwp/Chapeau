@@ -13,12 +13,12 @@ Tags: Agriculture Society
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -39,9 +39,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-}
-ol, ul {
-	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -129,30 +126,25 @@ html {
 body {
 	margin:0 auto;
 	padding:0;
-/*	font-family:"Copperplate Gothic";
-*/	
-	
 	position:relative;
 }
 
 .all {
 	width:1152px;
 	height:720px;
-	margin:0 auto;
+	margin:38px auto;
 }
 
 .top {
 	position:absolute;
 	top:0;
 	right:0;
-	
 	margin:0;
+	margin-top:-38px;
 	width:100%;
 	height:46px;
 	background:url("images/HEADER_background_tiled.png") repeat-x;
 	background-size:100% 100%;
-	
-
 }
 
 a {
@@ -209,12 +201,6 @@ a {
 
 }
 
-ul {
-	margin-top:100px;
-	list-style-type: none;
-	text-align:right;
-
-}
 
 .nav, .nav ul {
 	list-style-type: none;
