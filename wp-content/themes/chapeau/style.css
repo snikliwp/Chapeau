@@ -163,9 +163,8 @@ a {
 	text-decoration: none;
 	font-family:'CopperPlateB',Sans-Serif;
 	color:#71907f;
-	margin:1em;
-	margin-top:0;
-	font-size:36px;
+	margin:3em;
+	font-size:28px;
 
 }
 
@@ -192,7 +191,7 @@ a {
 	margin:0;
 	padding-top:100px;
 
-	width:25%;
+	width:22%;
 	height:532px;
 	text-align:right;
 	font-size:18px;
@@ -228,7 +227,7 @@ ul {
 	display:block;
 	text-decoration: none;
 	padding:.5em;
-	padding-right:2em;
+	padding-right:1em;
 	
 }
 
@@ -250,12 +249,13 @@ ul {
 	display: block;
 	width: 13em;
 	margin:0;
+	padding-left:2em;
 	text-align:left;
 }
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2em 0 0 16em;
+	margin: -2em 0 0 14em;
 }
 
 .nav a:hover {
@@ -288,13 +288,14 @@ ul {
 	margin-left:2%;
 	margin-right:2%;
 	padding-top:100px;
-	width:46%;
+	width:52%;
 	background-color:#FFF;
-	display:inline;
+	
+	display:block;
 	float:left;
 	height:532px;
 	overflow-y:scroll;
-	/*z-index : 100;*/
+	z-index : 1;
 }
 
 .middle p:first-child{
@@ -335,19 +336,22 @@ background: rgba(255,0,0,0.4);
 	margin:0;
 	margin-left:2%;
 	margin-right:2%;
-	width:46%;
+	width:52%;
 	height:532px;
 	background-color:#FFF;
 	background-image:url(images/logo.png);
 	background-position:center;
 	background-repeat:no-repeat;
-	display:inline;
+	
+	display:block;
 	float:left;
+	z-index : 1;
+
 }
 
 
 .right {
-	width:25%;
+	width:22%;
 	height:532px;
 	margin:0;
 	padding-top:100px;
@@ -372,10 +376,12 @@ background: rgba(255,0,0,0.4);
 	height:288px;
 	display:inline;
 	float:left;
-	background-image:url("images/FOOTER_background.png");
+	background-image:url("images/FOOTER_background_B.png");
 	background-repeat:no-repeat;
 	
-	positon:absolute;
+	positon:fixed;
+	top:-33px;
+	z-index:3;
     
 }
 
@@ -384,8 +390,8 @@ background: rgba(255,0,0,0.4);
 
 	font-family:'CopperPlateB',Sans-Serif;
 	color:#71907f;
-	font-size:2em;
-	margin-top:6em;
+	font-size:1.5em;
+	margin-top:9em;
 	
 }
 

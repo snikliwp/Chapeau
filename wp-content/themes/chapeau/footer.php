@@ -3,8 +3,8 @@
 
 
 <footer class="bottom">
-	<div class="footercontent">Societe D'Agriculture de <span>Chapeau</span> Agricultural Society
-    <p class="copyright">© MMXII | Societe D'Agriculture de Chapeau, Chapeau Agricultural Society</p>
+	<div class="footercontent">Soçiété D'Agriculture de <span>Chapeau</span> Agricultural Society
+    <p class="copyright">© MMXII | Soçiété D'Agriculture de Chapeau, Chapeau Agricultural Society</p>
     </div>
 </footer>
 
