@@ -15,6 +15,7 @@ Template Name: Goals and Objectives page
 setup_postdata($goals_post);
 the_content();
  ?>
+ 
 </div>
 
 

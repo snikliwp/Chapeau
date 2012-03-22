@@ -8,6 +8,8 @@ Template Name: Education page
 	the_post();
 	$education_post = $post;
 ?>
+
+<p>This is the education page</p>
 <article>
 	<div class="middle">
 
@@ -15,8 +17,9 @@ Template Name: Education page
 setup_postdata($education_post);
 the_content();
  ?>
-
 </div>
+
+
 
 <?php get_footer(); ?>
 
