@@ -16,18 +16,18 @@
 
 <div class="all">
 
-<div class="left">
-	<nav class="wrapper">
-		<?php 
-			wp_nav_menu(
-				array(
-				'theme_location' => 'primary',
-				'container' => false,
-				'menu_class' => 'nav',
-//				'depth' => 2
-				)
-			);
-			?>
-	</nav>
-</div>
+    <div class="left">
+        <nav class="wrapper">
+            <?php 
+                wp_nav_menu(
+                    array(
+                    'theme_location' => 'primary',
+                    'container' => false,
+                    'menu_class' => 'nav',
+    //				'depth' => 2
+                    )
+                );
+                ?>
+        </nav>
+    </div>
 
