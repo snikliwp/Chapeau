@@ -209,6 +209,7 @@ a {
 	list-style-type: none;
 	margin:0;
 	padding:0;
+	
 
 }
 
@@ -223,6 +224,8 @@ a {
 .nav li {
 	width: 100%;
 	text-align:right;
+	/*background-color:#005345;*/
+	
 
 }
 
@@ -235,7 +238,7 @@ a {
 
 .sub-menu a {
 	display: block;
-	width: 13em;
+	width: 14em;
 	margin:0;
 	padding-left:1em;
 	text-align:left;
@@ -245,17 +248,35 @@ a {
 .nav li:hover ul {
 	left: auto;
 	margin: -2em 0 0 15.3em;
+	
 
 }
 
-.nav a:hover {
+.nav a:hover{
+    color:#cbc5a4;
+}
+
+.nav a/*:hover */{
+	/*color:#cbc5a4;*/
+	/*color:#25472E;*/
+	width: 12.5em;
+	/*background-color:#005345;*/
+}
+
+
+.nav li:hover {
 	color:#cbc5a4;
-	width: 13.8em;
+	width: 15.3em;
 	background-color:#005345;
-
-
-
 }
+
+.sub-menu li:hover{
+    color:#cbc5a4;
+	width: 13.5em;
+	/*background-color:#005345;*/
+	/*background-color:#FF3;*/	
+}
+
 
 .gallery a {
 	margin: 10px;
