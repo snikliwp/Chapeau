@@ -67,8 +67,8 @@ add_action("init", "create_post_type");
 function create_post_type() {
 	
 	$labels = array(
-		"name" => "advertisments", // plural version of the post name
-		"singular_name" => "advertisment",
+		"name" => "Advertisments", // plural version of the post name
+		"singular_name" => "Advertisment",
   		"add_new_item" => "Add New Advertisment" // Changes title from add new post to add new contact
 		);
 				

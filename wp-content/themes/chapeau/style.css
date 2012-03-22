@@ -346,9 +346,20 @@ a {
 
 }
 
-/*.middle {
+.middle h1,
+.middle h2,
+.middle h3,
+.middle h4,
+.middle h5 {
+	padding:.5em;
+	color:#005345;
+	font-family:'CopperPlateB',Sans-Serif;
+	text-shadow:0px 0px 3px #ebe9dd;
+	background-image:url("images/H1_background.png");
+	background-repeat:no-repeat;
+	background-size: 80% 100%;
 }
-*/
+
 table {
 	width:96%;
 }
@@ -387,6 +398,14 @@ th {
 
 }
 
+.prev-post {
+	text-align:left;
+}
+
+.next-post {
+	text-align:right;
+
+}
 
 .right {
 /*	width:22%;
@@ -468,10 +487,11 @@ th {
 	font-size:.5em;
 }
 
-/*span {
+.footercontent span {
 	color:#cbc5a4;
 }
-*/
+
+
 #farmhouse {
 	background-image:url("images/HTML_left_overlay_B.png");
 	background-repeat:no-repeat;
