@@ -8,17 +8,18 @@ Template Name: photo page
 	the_post();
 	$photo_post = $post;
 ?>
-<article>
-	<div class="middle">
-<div class="photo">
-<p>This is the photo page</p>
 
-<?php 
-setup_postdata($photo_post);
-the_content();
-?>
-</div>
-</div>
+<article>
+	<span class="middle-top">
+    </span>
+	
+	<div class="middle">
+        
+            <?php 
+            setup_postdata($photo_post);
+            the_content();
+            ?>
+      </div>      
 
 
 <?php get_footer(); ?>
