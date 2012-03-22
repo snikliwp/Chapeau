@@ -398,6 +398,14 @@ th {
 
 }
 
+.prev-post {
+	text-align:left;
+}
+
+.next-post {
+	text-align:right;
+
+}
 
 .right {
 /*	width:22%;
