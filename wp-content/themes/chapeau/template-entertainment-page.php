@@ -9,6 +9,10 @@ Template Name: enertainment page
 	$enertainment_post = $post;
 ?>
 <article>
+
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 

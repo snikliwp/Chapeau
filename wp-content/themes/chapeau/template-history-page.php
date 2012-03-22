@@ -9,6 +9,9 @@ Template Name: History page
 	$history_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($history_post);

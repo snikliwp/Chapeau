@@ -10,6 +10,10 @@ Template Name: About Us page
 ?>
 
 <article>
+
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($about_post);

@@ -10,6 +10,9 @@ Template Name: Membership page
 ?>
 
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($member_post);

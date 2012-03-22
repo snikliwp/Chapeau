@@ -9,9 +9,10 @@ Template Name: market page
 	$market_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
-
-
 
 <?php 
 setup_postdata($market_post);

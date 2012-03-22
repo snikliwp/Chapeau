@@ -9,6 +9,10 @@ Template Name: Board page
 	$board_post = $post;
 ?>
 <article>
+
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 <?php 

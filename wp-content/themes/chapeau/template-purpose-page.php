@@ -9,6 +9,10 @@ Template Name: Purpose page
 	$purpose_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+	
+
 	<div class="middle">
 
 

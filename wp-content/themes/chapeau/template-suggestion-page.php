@@ -9,6 +9,9 @@ Template Name: suggestion page
 	$suggestion_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 

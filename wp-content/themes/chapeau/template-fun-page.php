@@ -9,6 +9,10 @@ Template Name: fun page
 	$fun_post = $post;
 ?>
 <article>
+
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 

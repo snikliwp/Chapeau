@@ -9,6 +9,9 @@ Template Name: Mission Statement page
 	$mission_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($mission_post);

@@ -9,9 +9,10 @@ Template Name: Gardens page
 	$gardens_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
-
-
 
 <?php 
 setup_postdata($gardens_post);

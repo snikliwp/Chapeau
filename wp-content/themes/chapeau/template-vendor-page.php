@@ -9,6 +9,9 @@ Template Name: vendor page
 	$vendor_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 

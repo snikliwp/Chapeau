@@ -9,6 +9,9 @@ Template Name: where page
 	$where_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($where_post);

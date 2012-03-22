@@ -10,8 +10,8 @@ Template Name: Home page
 ?>
 
 <article>
-	<span class="middle-top">
-    </span>
+	<div class="middle-top">
+    </div>
 	
     <div class="home-middle">
     

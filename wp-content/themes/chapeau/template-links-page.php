@@ -9,6 +9,9 @@ Template Name: links page
 	$links_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 
 <!--<p>This is the links page</p>-->

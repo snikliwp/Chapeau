@@ -301,6 +301,8 @@ a {
 	height:532px;
 	overflow-y:scroll;
 	z-index : 1;
+	
+	color:#000;
 }
 
 .middle p:first-child{
@@ -314,8 +316,13 @@ a {
 .middle h2,
 .middle h3,
 .middle h4,
-.middle table {
-	margin:12px;
+.middle table,
+.middle div,
+.middle li,
+.middle span {
+	margin:5px 12px;
+	list-style-type: none;
+
 }
 
 table {
@@ -374,7 +381,10 @@ th {
 	text-decoration: none;
 	display:inline;
 	float:left;
+	
 	margin:0;
+	margin-top:-100px;
+	padding-top:100px;
 
 	width:22%;
 	height:532px;
@@ -420,10 +430,10 @@ th {
 	font-size:.5em;
 }
 
-span {
+/*span {
 	color:#cbc5a4;
 }
-
+*/
 #farmhouse {
 	background-image:url("images/HTML_left_overlay_B.png");
 	background-repeat:no-repeat;

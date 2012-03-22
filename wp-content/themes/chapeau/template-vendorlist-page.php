@@ -9,6 +9,9 @@ Template Name: Vendor List page
 	$vendorlist_post = $post;
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
 <?php 
 setup_postdata($vendorlist_post);

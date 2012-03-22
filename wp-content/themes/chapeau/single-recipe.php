@@ -12,6 +12,9 @@
 	));
 ?>
 <article>
+	<div class="middle-top">
+    </div>
+
 	<div class="middle">
             <article class="product">
                 <div itemscope itemtype="http://schema.org/Recipe">
@@ -43,16 +46,15 @@
                     </div>
                 </div>
             </article>
-    </div>
 
 <?php //endforeach; ?>
 
-
-
 <?php the_content(); ?>
 
-<div class="prev-post"><?php previous_post_link(); ?> &nbsp;</div>
-<div class="next-post"><?php next_post_link(); ?> </div>
+    <div class="prev-post"><?php previous_post_link(); ?> &nbsp;</div>
+    <div class="next-post"><?php next_post_link(); ?> </div>
+    
+    </div>
 
 
 <?php get_footer(); ?>
