@@ -10,42 +10,39 @@ Template Name: sales page
 ?>
 <article>
 	<div class="middle">
-		<p>This is the sales page</p>
-		<?php 
-			$news = get_posts(array(
-				"post_type" => "advertisment", // The kind of post that we want to display
-				"numberposts" => -1,
-				));
-				
-			foreach ($news as $post) :
-				setup_postdata($post);
-				$files = get_posts(array(
-					'post_type' => 'attachment'
-					, 'numberposts' => 1
-					, 'post_parent' => $post->ID
-				));
-		?>
-		
-		<article class="news">
-			<div class="ad">
-				<div class="adtitle">
-					<h2 itemprop="name" class = "product-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				</div><!-- end class adtitle -->
-				<div class="adname">
-					<?php more_fields('ad-name', '<li><span>', '</span></li>'); ?>
-				</div> <!-- end class adname -->
-				<div class="adcat">
-					<?php more_fields('ad-cat', '<li><span>', '</span></li>'); ?>
-				</div><!-- end class adtxt -->
-				<div class="adtxt">
-					<?php more_fields('ad-text', '<li><span>', '</span></li>'); ?>
-				</div> <!-- end class adtxt -->
-			</div> <!--end of class ad-->
-		<br>
+		<h2>Announcements</h2>
+		 
+	<?php $postslist = get_posts(array("post_type" => "advertisment", 'category' => 6, 'numberposts' => 4));
+		foreach ($postslist as $post) :
+			setup_postdata($post); ?>
+			<article class="ad-item">
+			<h3 class="ad-title"><a href="<?php the_permalink(); ?>"rel="bookmark"><?php the_title();?></a></h3>
+			<?php the_excerpt(); ?>
+			</article>
 		<?php endforeach; ?>
+
+		<h2>Wanted</h2>
+	<?php $postslist = get_posts(array("post_type" => "advertisment", 'category' => 5, 'numberposts' => 4));
+		foreach ($postslist as $post) :
+			setup_postdata($post); ?>
+			<article class="news-item">
+			<h3 class="news-title"><a href="<?php the_permalink(); ?>"rel="bookmark"><?php the_title();?></a></h3>
+			<?php the_excerpt(); ?>
+			</article>
+		<?php endforeach; ?>
+
+		<h2>For Sale</h2>
+	<?php $postslist = get_posts(array("post_type" => "advertisment", 'category' => 4, 'numberposts' => 4));
+		foreach ($postslist as $post) :
+			setup_postdata($post); ?>
+			<article class="news-item">
+			<h3 class="news-title"><a href="<?php the_permalink(); ?>"rel="bookmark"><?php the_title();?></a></h3>
+			<?php the_excerpt(); ?>
+			</article>
+		<?php endforeach; ?>
+
 		
-		</article> <!--end of article class news-->
-	</div> <!--end of middle ad-->
+	</div> <!--end of class middle -->
 <?php 
  setup_postdata($sales_post);
  the_content();
