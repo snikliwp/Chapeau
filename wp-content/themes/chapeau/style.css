@@ -346,9 +346,17 @@ a {
 
 }
 
-/*.middle {
+.middle h1,
+.middle h2,
+.middle h3,
+.middle h4,
+.middle h5 {
+	padding:.5em;
+	background-image:url("images/H1_background.png");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
 }
-*/
+
 table {
 	width:96%;
 }
@@ -454,10 +462,7 @@ th {
 	font-size:.5em;
 }
 
-/*span {
-	color:#cbc5a4;
-}
-*/
+
 #farmhouse {
 	background-image:url("images/HTML_left_overlay_B.png");
 	background-repeat:no-repeat;
