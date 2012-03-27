@@ -336,7 +336,6 @@ a {
 .middle h1,
 .middle h2,
 .middle h3,
-.middle h4,
 .middle table,
 .middle div,
 .middle li,
@@ -345,11 +344,16 @@ a {
 	list-style-type: none;
 
 }
+.middle h4 {
+	margin:5px 0px;
+	list-style-type: none;
+	
+}
 
 .middle h1,
 .middle h2,
-.middle h3,
-.middle h4,
+/*.middle h3,
+.middle h4,*/
 .middle h5 {
 	padding:.5em;
 	color:#005345;
@@ -515,3 +519,18 @@ th {
 	width:482px;
 	height:303px;
 }
+
+
+.prodtitle {
+	padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+

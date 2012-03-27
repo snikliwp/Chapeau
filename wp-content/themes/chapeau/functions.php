@@ -98,18 +98,19 @@ function create_recipes_post_type() {
 		));
 }
 /**************************************************************************************/
-//add_action("init", "create_advertisment_post_type");
-//function create_advertisment_post_type() {
-//	
-//	$labels = array(
-//		"name" => "Advertisments", // plural version of the post name
-//		"singular_name" => "Advertisment",
-//  		"add_new_item" => "Add a new advertisment" // Changes title from add new post to add new contact
-//		);
-//				
-//	register_post_type("advertisment", array(
-//		"labels" => $labels,
-//		"public" => true,
-//		"supports" => array("title") // default is array("title", "editor")
-//		));
-//}
+add_action("init", "create_producer_post_type");
+function create_producer_post_type() {
+	
+	$labels = array(
+		"name" => "Producers", // plural version of the post name
+		"singular_name" => "Producer",
+  		"add_new_item" => "Add a new Producer" // Changes title from add new post to add new contact
+		);
+				
+	register_post_type("producer", array(
+		"labels" => $labels,
+		"public" => true,
+		"supports" => array("title"), // default is array("title", "editor")
+		"taxonomies" => array("category", "post_tag")
+		));
+}
