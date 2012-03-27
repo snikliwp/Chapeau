@@ -76,6 +76,7 @@ the_content();
 
 </div>
 
-
+	<div class="middle-bottom">
+    </div>
 <?php get_footer(); ?>
 

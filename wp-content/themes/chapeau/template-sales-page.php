@@ -100,9 +100,17 @@ Template Name: sales page
 	</div> <!-- end class wanted -->
 
 	</div> <!--end of middle -->
+    
+
 <?php 
  setup_postdata($sales_post);
  the_content();
+ ?>
+
+ 	<div class="middle-bottom">
+    </div>
+
+ <?php
  get_footer(); 
 ?>
 
