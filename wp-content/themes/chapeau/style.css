@@ -334,7 +334,6 @@ a {
 .middle ul,
 .middle h1,
 .middle h2,
-.middle h3,
 .middle table,
 .middle div,
 .middle li,
@@ -342,17 +341,20 @@ a {
 	margin:5px 12px;
 
 }
+
+.middle h3,
 .middle h4 {
 	margin:5px 0px;
 	list-style-type: none;
 	
 }
+.middle h3,
+.middle h4 {
+	color:#005345;
+}
 
 .middle h1,
-.middle h2,
-/*.middle h3,
-.middle h4,*/
-.middle h5 {
+.middle h2 {
 	padding:.5em;
 	color:#005345;
 	font-family:'CopperPlateB',Sans-Serif;
