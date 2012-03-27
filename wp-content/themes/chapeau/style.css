@@ -542,6 +542,8 @@ th {
 temp {
 	list-style: none;
 	text-align: center;
+	alignment-adjust: after-edge;
+	
 }
 
 
