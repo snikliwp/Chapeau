@@ -6,10 +6,11 @@ Template Name: shop page
 <?php 
 	get_header(); 
 	the_post();
-	$shop_post = $post;
 ?>
 <article>
 	<div class="middle-top">
+		<h1><?php the_title(); ?></h1>
+
     </div>
 	
 
@@ -17,7 +18,7 @@ Template Name: shop page
 
 
 <?php 
-setup_postdata($shop_post);
+setup_postdata($post);
 the_content();
  ?>
 

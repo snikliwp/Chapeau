@@ -11,9 +11,9 @@ get_header(); ?>
 
 	<div class="middle">
 
-<p>
+<h1>
 This Page Does Not Exist.
-</p>
+</h1>
 
 </div>
 

@@ -7,7 +7,6 @@ Template Name: Recipes Page
 <?php 
 	get_header(); 
 	the_post();
-//	$berry_post = $post;
 ?>
 
 <article>
