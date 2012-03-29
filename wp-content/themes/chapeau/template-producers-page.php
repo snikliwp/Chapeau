@@ -52,6 +52,8 @@ Template Name: producers page
 				<li><?php more_fields('producer-address'); ?></li>
 				<li><?php more_fields('producer-phone'); ?></li>
 				<li><a href="<?php more_fields('producer-web'); ?>"><?php more_fields('producer-web');?></a></li>
+                <li><a href="mailto:<?php more_fields('producer-email'); ?>"><?php more_fields('producer-email');?></a></li>
+
 			</div><!-- end class prod-contact -->
 		</ul>
 	</article> <!--end of article class producer-->
