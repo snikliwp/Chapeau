@@ -14,11 +14,10 @@ Template Name: producers page
 
 
 	<div class="middle">
-		<div class="intro">
-			<h2>Local & Regional Producers</h2>
-			<p>The Chapeau Agricultural Society supports the idea of local production of as many foods as possible.  To that end, we are pleased to support the following local and regional producers and encourage our members and readers to make local food purchases from local producers wherever possible.</p>
-			<p>If you are a local producer and would like to be listed here please contact us at:<span><a href="#">chapeauagsociety@gmail.com</a></span></p>
-		</div>
+		<?php 
+        setup_postdata($producers_post);
+        the_content();
+         ?>
 
 	<?php 
 	$producers = get_posts(array(
@@ -69,10 +68,6 @@ Template Name: producers page
 
 
 
-<?php 
-setup_postdata($producers_post);
-the_content();
- ?>
 
 </div>
 
