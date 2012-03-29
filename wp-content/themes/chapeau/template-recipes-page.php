@@ -7,14 +7,19 @@ Template Name: Recipes Page
 <?php 
 	get_header(); 
 	the_post();
-//	$berry_post = $post;
 ?>
 
 <article>
 	<div class="middle-top">
+	<h1><?php the_title(); ?><h1>
     </div>
 
 	<div class="middle">
+		<?php 
+        setup_postdata($post);
+        the_content();
+         ?>
+         
 		<?php 
             $recipes = get_posts(array(
                 "post_type" => "recipe", // The kind of post that we want to display
@@ -47,10 +52,7 @@ Template Name: Recipes Page
         </article> <!--end of article class product-->
 
 <?php endforeach; ?>
-<?php 
-//setup_postdata($berry_post);
-the_content();
- ?>
+
 
 </div>
 

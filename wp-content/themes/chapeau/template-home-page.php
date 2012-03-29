@@ -15,11 +15,6 @@ Template Name: Home page
 	
     <div class="home-middle">
     
-        <h2><?php the_title ?></h2>
-		<?php 
-        setup_postdata($home_post);
-        the_content();
-         ?>
 	</div>
 
 	<div class="middle-bottom">
