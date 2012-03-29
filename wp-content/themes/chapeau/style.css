@@ -549,7 +549,7 @@ temp {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-height: 900px) {
 
 .middle {
 	margin:0;
@@ -560,24 +560,43 @@ temp {
 	
 	display:block;
 	float:left;
+	
 	height:432px;
+	
 	overflow-y:scroll;
-	z-index : -1;
+	z-index : 1;
 	
 	color:#000;
 }
-
-
-#haybail {
-	background-image:url("images/HTML_right_overlay_B.png");
-	background-repeat:no-repeat;
+#farmhouse {
+	/*background-image:url("images/HTML_left_overlay_B.png");
+	background-repeat:no-repeat;*/
 	position:fixed;
 	z-index:1;
 	bottom:0;
-	right:0;
+	left:0;
+	background-image:none;
+	height:0;
+	width:0;
+	/*width:482px;
+	height:303px;*/
+}
 
-	width:482px;
-	height:303px;
+#haybail {
+	/*background-image:url("images/HTML_right_overlay_B.png");
+	background-repeat:no-repeat;*/
+	position:fixed;
+	
+	/*bottom:0;
+	right:0;*/
+   
+	/*width:482px;
+	height:303px;*/
+	/*height:1080;*/
+	/*z-index:-1;*/
+	background-image:none;
+	height:0;
+	width:0;
 }
 
 
@@ -588,8 +607,9 @@ temp {
 	background-repeat:no-repeat;
 	positon:fixed;
 	float:left;
-    /*background-size:1152px 288px;*/
+    background-size:1152px 288px;
 	height:288px;
+	
 	width:1152px;
 	
     
@@ -608,6 +628,7 @@ temp {
 	margin-right:2%;
 	width:52%;
 	height:432px;
+	
 	background-color:#FFF;
 	background-image:url(images/logo.png);
 	background-position:center;
@@ -625,12 +646,12 @@ temp {
 	margin-right:2%;
 	width:52%;
 	background-color:#FFF;
-	
+	height:auto;
 	display:inline;
 	float:left;
 
 	height:100px;
-	z-index : 1;
+	z-index : -1;
 }
 
 }
