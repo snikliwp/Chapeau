@@ -7,16 +7,14 @@
 
 <article>
 	<div class="middle-top">
+    <h1><?php the_title();?></h1>
     </div>
 
 	<div class="middle">
 
-    <h1><?php the_title();?></h1>
     <?php the_content();?>
     
-        <footer>
-        </footer>
-    
+
     <div class="prev-post"><?php previous_post_link(); ?> &nbsp;</div>
     <div class="next-post"><?php next_post_link(); ?> </div>
 
