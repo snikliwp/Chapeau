@@ -13,12 +13,12 @@
 ?>
 <article>
 	<div class="middle-top">
+    <h1 itemprop="name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
     </div>
 
 	<div class="middle">
             <article class="product">
                 <div itemscope itemtype="http://schema.org/Recipe">
-                    <h2 itemprop="name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     <img itemprop="image" src="<?php echo wp_get_attachment_thumb_url($files[0]->ID); ?>">
                     <div class="single-recipe">
                         <ul>
