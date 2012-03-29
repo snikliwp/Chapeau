@@ -101,7 +101,7 @@ q:before, q:after {
 
 
 figcaption {
-*/	display: block;
+	display: block;
 	position: absolute;
 	right: 5px;
 	bottom: 97px;
@@ -479,7 +479,7 @@ th {
 	text-align:center;
     background-image:url("images/FOOTER_background.png");
 	background-repeat:no-repeat;
-	/*positon:fixed;*/
+	positon:fixed;
 	float:left;
     /*background-size:1152px 288px;*/
 	height:288px;
@@ -490,7 +490,7 @@ th {
 	color:#71907f;
 	font-size:1.5em;
 	margin-top:-4em;
-	z-index:-1;
+	z-index:1;
 	text-shadow:2px 2px 2px #000;
 	
 }
@@ -543,11 +543,89 @@ th {
 
 
 
+@media screen and (min-width: 600px) {
+
+.middle {
+	margin:0;
+	margin-left:2%;
+	margin-right:2%;
+	width:52%;
+	background-color:#FFF;
+	
+	display:block;
+	float:left;
+	height:432px;
+	overflow-y:scroll;
+	z-index : -1;
+	
+	color:#000;
+}
 
 
+#haybail {
+	background-image:url("images/HTML_right_overlay_B.png");
+	background-repeat:no-repeat;
+	position:fixed;
+	z-index:1;
+	bottom:0;
+	right:0;
+
+	width:482px;
+	height:303px;
+}
 
 
+ .bottom{
+	
+	text-align:center;
+    background-image:url("images/FOOTER_background.png");
+	background-repeat:no-repeat;
+	positon:fixed;
+	float:left;
+    /*background-size:1152px 288px;*/
+	height:288px;
+	width:1152px;
+	
+    
+	font-family:'CopperPlateB',Sans-Serif;
+	color:#71907f;
+	font-size:1.5em;
+	margin-top:-4em;
+	z-index:-1;
+	text-shadow:2px 2px 2px #000;
+	
+}
 
+.home-middle {
+	margin:0;
+	margin-left:2%;
+	margin-right:2%;
+	width:52%;
+	height:432px;
+	background-color:#FFF;
+	background-image:url(images/logo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	display:block;
+	float:left;
+	z-index : 1;
 
+}
 
+.middle-bottom {
+	margin:0;
+	margin-left:2%;
+	margin-right:2%;
+	width:52%;
+	background-color:#FFF;
+	
+	display:inline;
+	float:left;
+
+	height:100px;
+	z-index : 1;
+}
+
+}
 
