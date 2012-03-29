@@ -44,23 +44,24 @@ function url () {
    /* we only want this function to be called when Wordpress is ready */
    // the add_action function allows us to call our own function at a specific time
 /**************************************************************************************/
-//add_action("init", "create_contacts_post_type");
-//
-//function create_contacts_post_type() {
-//	
-//	$labels = array(
-//		"name" => "Contacts", // plural version of the post name
-//		"singular_name" => "Contact",
-//  		"add_new_item" => "Add New Contact" // Changes title from add new post to add new contact
-//		);
-//				
-//	register_post_type("contact", array(
-//		"labels" => $labels,
-//		"public" => true,
-//		"supports" => array("title") // default is array("title", "editor")
-//		));
-//		
-//}
+add_action("init", "create_events_post_type");
+
+function create_events_post_type() {
+	
+	$labels = array(
+		"name" => "Events", // plural version of the post name
+		"singular_name" => "Event",
+  		"add_new_item" => "Add New Event" // Changes title from add new post to add new contact
+		);
+				
+	register_post_type("event", array(
+		"labels" => $labels,
+		"public" => true,
+		"supports" => array("title", "editor", "custom-fields"), // default is array("title", "editor")
+		"taxonomies" => array('category', 'post_tag')
+		));
+		
+}
 /**************************************************************************************/
 add_action("init", "create_post_type");
 
