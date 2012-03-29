@@ -358,14 +358,15 @@ a {
 
 .middle h1,
 .middle-top h1 {
-	padding:0 0 .5em 0em;
+	padding:0em 0em 0.6em 0em;
 	color:#005345;
 	font-family:'CopperPlateB',Sans-Serif;
 	text-shadow:1px 2px 3px #999;
 }
 
 .middle-top h1 {
-
+	margin:5px;
+	margin-top:4.3em;
 }
 
 table {
@@ -503,7 +504,7 @@ th {
 }
 
 .footercontent{
-	margin-top:230px;
+	margin-top:220px;
 }
 
 .copyright {
