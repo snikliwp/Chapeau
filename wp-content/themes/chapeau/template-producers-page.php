@@ -6,16 +6,16 @@ Template Name: producers page
 <?php 
 	get_header(); 
 	the_post();
-	$producers_post = $post;
 ?>
 <article>
 	<div class="middle-top">
+	<h1><?php the_title(); ?><h1>
 	</div> <!-- End Div middle-top -->
 
 
 	<div class="middle">
 		<?php 
-        setup_postdata($producers_post);
+        setup_postdata($post);
         the_content();
          ?>
 
