@@ -329,13 +329,14 @@ a {
 	margin-top:.6em;
 }
 
+
 .middle p,
 .middle ol,
 .middle ul,
 .middle h1,
 .middle h2,
 .middle table,
-.middle div,
+/*.middle div,*/
 .middle li,
 .middle span {
 	margin:8px;
@@ -552,7 +553,6 @@ th {
 
 
 
-@media screen and (max-height: 900px) {
 
 .middle {
 	margin:0;
@@ -656,6 +656,15 @@ th {
 	height:100px;
 	z-index : -1;
 }
+/* -------------------------------------- */
 
+
+
+/**
+ *  @section  Calendar
+ */
+.tribe-events-button-off {
+	margin-top: 10px;
 }
+
 
