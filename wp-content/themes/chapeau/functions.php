@@ -30,19 +30,19 @@ function url () {
 //	'after_widget'  => ''));
 
 /**************************************************************************************/
-//register_sidebars(1, array(
-//	'id' => 'footerbar1', // ID - id for us
-//	'name' => 'Footer Sidebar', // name for users which is displayed in wp-admin
-//	'before_widget' => '',
-//	'after_widget'  => ''));
+register_sidebars(1, array(
+	'id' => 'eventsbar', // ID - id for us
+	'name' => 'Events Sidebar', // name for users which is displayed in wp-admin
+	'before_widget' => '',
+	'after_widget'  => ''));
 //	include 'widgets/sample-widget.php'; // get our new widget from the widgets folder
 
 
-/* Allows us to create a new type in wordpress that will show in the 
-   left menu where pages and posts etc. are listed */
-   
-   /* we only want this function to be called when Wordpress is ready */
-   // the add_action function allows us to call our own function at a specific time
+// Allows us to create a new type in wordpress that will show in the 
+//   left menu where pages and posts etc. are listed 
+//   
+//    we only want this function to be called when Wordpress is ready 
+//    the add_action function allows us to call our own function at a specific time
 /**************************************************************************************/
 //add_action("init", "create_events_post_type");
 //

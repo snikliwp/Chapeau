@@ -1,4 +1,6 @@
-        <div class="right">Events</div>
+        <div class="right">Events
+		<?php dynamic_sidebar('eventsbar')?>
+		</div>
 </article>
 
 
