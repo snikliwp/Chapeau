@@ -335,12 +335,13 @@ a {
 .middle ul,
 .middle h1,
 .middle h2,
+.middle h3,
 .middle table,
 /*.middle div,*/
 .middle li,
-.middle span {
+.middle span,
+.adexcerpt {
 	margin:8px;
-
 }
 
 .middle h2,
@@ -353,6 +354,7 @@ a {
 .middle h2,
 .middle h3,
 .middle h4 {
+	margin-top:15px;
 	color:#005345;
 }
 
@@ -666,5 +668,4 @@ th {
 .tribe-events-buttons {
 	margin-top: 10px;
 }
-
 
