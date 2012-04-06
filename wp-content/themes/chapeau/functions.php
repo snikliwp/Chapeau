@@ -129,7 +129,7 @@ function create_minutes_post_type() {
 	register_post_type("minutes", array(
 		"labels" => $labels,
 		"public" => true,
-		"supports" => array("title"), // default is array("title", "editor")
+		"supports" => array("title", "editor"), // default is array("title", "editor")
 		"taxonomies" => array("category", "post_tag")
 		));
 }
