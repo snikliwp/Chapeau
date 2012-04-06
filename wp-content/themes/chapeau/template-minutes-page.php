@@ -14,7 +14,7 @@ Template Name: minutes page
 	foreach ($minutes as $post) :
 		setup_postdata($post);
 		$files = get_posts(array(
-		'post_type' => 'minutes'
+		'post_type' => 'attachment'
 		, 'numberposts' => 1
 		, 'post_parent' => $post->ID
 		));
