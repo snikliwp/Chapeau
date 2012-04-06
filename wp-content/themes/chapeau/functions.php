@@ -115,3 +115,21 @@ function create_producer_post_type() {
 		"taxonomies" => array("category", "post_tag")
 		));
 }
+
+/**************************************************************************************/
+add_action("init", "create_minutes_post_type");
+function create_minutes_post_type() {
+	
+	$labels = array(
+		"name" => "Minutes", // plural version of the post name
+		"singular_name" => "Minutes",
+  		"add_new_item" => "Add new Minutes" // Changes title from add new post to add new contact
+		);
+				
+	register_post_type("minutes", array(
+		"labels" => $labels,
+		"public" => true,
+		"supports" => array("title"), // default is array("title", "editor")
+		"taxonomies" => array("category", "post_tag")
+		));
+}
