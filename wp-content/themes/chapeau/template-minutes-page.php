@@ -3,8 +3,10 @@
 Template Name: minutes page
 */
 ?>
-<?php get_header(); ?>
-
+<?php 
+	get_header(); 
+	the_post();
+?>
 <article>
 	<div class="middle-top">
 	<h1><?php the_title(); ?><h1>
@@ -12,8 +14,11 @@ Template Name: minutes page
 
 
 	<div class="middle">
-	<article class="minutes-body">
-		<div class="prodtitle">
+		<?php 
+        setup_postdata($post);
+        the_content();
+         ?>
+		 
 	<?php 
 	$minutes = get_posts(array(
 		"post_type" => "minutes", // The kind of post that we want to display should put up minutes
@@ -29,14 +34,14 @@ Template Name: minutes page
 		));
 ?>
 		
+	<article class="minutes-body">
+		<div class="prodtitle">
 		
 			<h3 itemprop="name" class = "minutes-title"><?php the_title(); ?></h3>
 		</div><!-- end class minutess -->
-		<ul>
 			<div class="minutes-body">
-				<li><?php the_post(); ?></li>
+				<span><?php the_content(); ?></span>
 			</div><!-- end class minutes-body -->
-		</ul>
 	</article> <!--end of article class minutes-body-->
 <?php endforeach; ?>
 
