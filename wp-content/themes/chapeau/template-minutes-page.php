@@ -7,7 +7,7 @@ Template Name: minutes page
 
 	<?php 
 	$minutes = get_posts(array(
-		"post_type" => "minutes", // The kind of post that we want to display
+		"post_type" => "minutes", // The kind of post that we want to display should pu;; up minutes
 		"numberposts" => -1,
 	));
 	
