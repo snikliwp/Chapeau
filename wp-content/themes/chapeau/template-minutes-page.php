@@ -34,15 +34,14 @@ Template Name: minutes page
 		));
 ?>
 		
-	<article class="minutes-body">
-		<div class="prodtitle">
-		
+	<article class="minutes">
+		<div class="min-title">
 			<h3 itemprop="name" class = "minutes-title"><?php the_title(); ?></h3>
-		</div><!-- end class minutess -->
-			<div class="minutes-body">
+		</div><!-- end class min-title -->
+			<div class="min-body">
 				<span><?php the_content(); ?></span>
-			</div><!-- end class minutes-body -->
-	</article> <!--end of article class minutes-body-->
+			</div><!-- end class min-body -->
+	</article> <!--end of article class minutes -->
 <?php endforeach; ?>
 
 </div>
