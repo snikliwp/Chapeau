@@ -327,7 +327,6 @@ a {
 	
 	color:#005345;
 	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
-	font-size:1.2em;
 	line-height:1.5;
 }
 
@@ -348,7 +347,6 @@ a {
 	
 	color:#005345;
 	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
-	font-size:1.2em;
 	line-height:1.5;
 }
 
@@ -359,16 +357,19 @@ a {
 
 .middle p,
 .middle ol,
-.middle ul,
 .middle h1,
 .middle h2,
 .middle h3,
 .middle table,
 /*.middle div,*/
-.middle li,
 .middle span,
 .adexcerpt {
-	margin:4%;
+	margin:0 4%;
+}
+
+.middle li,
+.middle ul {
+	margin:4% 0;
 }
 
 .middle h2,
@@ -590,12 +591,3 @@ th {
 	text-shadow:2px 2px 2px #000;
 	
 }
-
-
-/* -------------------------------------- */
-
-
-
-/**
- *  @section  Calendar
- */
