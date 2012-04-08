@@ -545,29 +545,6 @@ th {
 }
 
 
-#farmhouse {
-	background-image:url("images/HTML_left_overlay_B.png");
-	background-repeat:no-repeat;
-	position:fixed;
-	z-index:1;
-	bottom:0;
-	left:0;
-	
-	width:482px;
-	height:303px;
-}
-
-#haybail {
-	background-image:url("images/HTML_right_overlay_B.png");
-	background-repeat:no-repeat;
-	position:fixed;
-	z-index:1;
-	bottom:0;
-	right:0;
-
-	width:482px;
-	height:303px;
-}
 
 .producer ul {
 	list-style: none;
@@ -602,14 +579,14 @@ th {
 	background-image:url("images/HTML_left_overlay_B.png");
 	background-repeat:no-repeat;
 	position:fixed;
-	z-index:1;
+	
 	bottom:0;
 	left:0;
-	background-image:none;
-	height:0;
-	width:0;
+	
 	width:482px;
 	height:303px;
+	
+	z-index:-1;
 }
 
 #haybail {
@@ -622,11 +599,8 @@ th {
    
 	width:482px;
 	height:303px;
-	height:1080;
+	
 	z-index:-1;
-	background-image:none;
-	height:0;
-	width:0;
 }
 
 
