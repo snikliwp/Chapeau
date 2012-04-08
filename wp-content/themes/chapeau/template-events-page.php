@@ -9,18 +9,17 @@ Template Name: Events page
 	$event_post = $post;
 ?>
 <article>
-	<div class="middle-top"><h1>Events</h1></div> <!--end of middle-top -->
-	<div class="middle">
-	
-	
-	
-	
+	<div class="middle-top">
+        <h1><?php the_title(); ?><h1>
+    </div>
 
-<?php 
- setup_postdata($event_post);
- the_content();
- ?>
+	<div class="middle-events">
+		<?php 
+         setup_postdata($event_post);
+         the_content();
+         ?>
 	</div> <!--end of middle -->
+    
 	<div class="middle-bottom">
 	</div> <!--end of middle-bottom -->
 

@@ -10,8 +10,11 @@ Template Name: EventsBack page
 ?>
 <article>
 	<div class="middle-top">
-	</div>
+        <h1><?php the_title(); ?><h1>
+    </div>
+
 	<div class="middle">
+
 	<div class="forsale">
 		<h2>Events</h2>
 			<?php 

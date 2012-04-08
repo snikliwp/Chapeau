@@ -186,7 +186,7 @@ a {
 	padding-top:100px;
 
 	width:22%;
-	height:632px;
+	height:732px;
 	text-align:right;
 	font-size:18px;
 	background-image:url("images/MIDDLE_SIDES_background.png");
@@ -244,7 +244,7 @@ a {
 	display: block;
 	width: 14em;
 	margin:0;
-	padding-left:1em;
+	padding-left:1.3em;
 	text-align:left;
 }
 
@@ -325,13 +325,34 @@ a {
 	overflow-y:scroll;
 	z-index : 1;
 	
-	color:##005345;
+	color:#005345;
 	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
 	font-size:1.2em;
 	line-height:1.5;
 }
 
-.middle p:first-child{
+.middle-events {
+	margin:0;
+	padding:0 2%;
+	
+	margin-left:2%;
+	margin-right:2%;
+	width:48%;
+	background-color:#FFF;
+	
+	display:block;
+	float:left;
+	height:632px;
+	overflow-y:scroll;
+	z-index : 1;
+	
+	color:#005345;
+	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
+	font-size:1.2em;
+	line-height:1.5;
+}
+
+.middle p:first-child {
 	margin-top:.6em;
 }
 
@@ -456,11 +477,11 @@ th {
 	float:left;
 	
 	margin:0;
-	margin-top:-664px;
+	margin-top:-764px;
 	padding-top:100px;
 
 	width:22%;
-	height:632px;
+	height:732px;
 	text-align:center;
 	font-size:18px;
 	background-image:url("images/MIDDLE_SIDES_background.png");
@@ -480,7 +501,6 @@ th {
 	color:#25472E;
 	margin:0;
 	padding:0;
-
 }
 
 .upcoming {
@@ -490,45 +510,11 @@ th {
 	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
 	list-style-type:none;
 }
+
 .upcoming li {
 	margin:15px;
 	text-align:left;
 
-}
-
-/*.bottom {
-	margin-bottom:0px;
-	width:1152px;
-	height:288px;
-	display:inline;
-	float:left;
-	/*background-image:url("images/FOOTER_background.png");
-	background-repeat:no-repeat;*/
-	
-	
-    
-
-
-/*.footercontent,*/
- .bottom{
-	
-	text-align:center;
-    background-image:url("images/FOOTER_background.png");
-	background-repeat:no-repeat;
-	positon:fixed;
-	float:left;
-    /*background-size:1152px 288px;*/
-	height:288px;
-	width:1152px;
-	
-    
-	font-family:'CopperPlateL',Sans-Serif;
-	color:#71907f;
-	font-size:1.7em;
-	margin-top:-4em;
-	z-index:1;
-	text-shadow:2px 2px 2px #000;
-	
 }
 
 .footercontent{
@@ -552,27 +538,6 @@ th {
 
 .prodtitle {
 	padding-top: 1em;
-}
-
-
-
-
-.middle {
-	margin:0;
-	margin-left:2%;
-	margin-right:2%;
-	width:52%;
-	background-color:#FFF;
-	
-	display:block;
-	float:left;
-	
-	height:532px;
-	
-	overflow-y:scroll;
-	z-index : 1;
-	
-	color:#000;
 }
 
 #farmhouse {
@@ -604,7 +569,7 @@ th {
 }
 
 
- .bottom{
+.bottom{
 	
 	text-align:center;
     background-image:url("images/FOOTER_background.png");
@@ -626,37 +591,7 @@ th {
 	
 }
 
-.home-middle {
-	margin:0;
-	margin-left:2%;
-	margin-right:2%;
-	width:52%;
-	height:632px;
-	
-	background-color:#FFF;
-	background-image:url(images/logo.png);
-	background-position:center;
-	background-repeat:no-repeat;
-	
-	display:block;
-	float:left;
-	z-index : 1;
 
-}
-
-.middle-bottom {
-	margin:0;
-	margin-left:2%;
-	margin-right:2%;
-	width:52%;
-	background-color:#FFF;
-	height:auto;
-	display:inline;
-	float:left;
-
-	height:100px;
-	z-index : -1;
-}
 /* -------------------------------------- */
 
 
@@ -664,7 +599,3 @@ th {
 /**
  *  @section  Calendar
  */
-.tribe-events-buttons {
-	margin-top: 10px;
-}
-
