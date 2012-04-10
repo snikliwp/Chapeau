@@ -267,22 +267,11 @@ a {
 
 
 .gallery a {
-	margin: 10px;
 	padding: 0px;
 	border: solid 10px #063;
-	float: left;
 	
 }
 
-.photo{
-   /*background-color:#3FF;*/
-   margin:10px;	
-}
-
-.gallery img {
-	display: block;
-	float:left;
-}
 
 .middle-top {
 	margin:0;
