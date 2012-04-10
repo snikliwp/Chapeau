@@ -97,6 +97,7 @@ q:before, q:after {
 
 /**
  *  @section  Layout
+ *  @subsection Footer
  */
 
 
@@ -129,34 +130,36 @@ body {
 	background:url("images/HEADER_background_tiled.png") repeat-x;
 }
 
+
+.topLinks {
+	text-align:center;
+	height:46px;
+	width:1152px;	
+	background:url("images/HEADER_links_image.png") no-repeat center;
+	font-size:1em;
+	margin-top:-8px;
+	padding-top:15px;
+}
+
 a {
 	color:#25472E;
 }
 
-.top a {
-	text-decoration: none;
-	font-family:'CopperPlateL',Sans-Serif;
-	color:#71907f;
-	margin:4em;
-	font-size:.7em;
-	text-shadow:2px 2px 2px #000;
-
-
-}
 
 .top a:hover {
 	color:#cbc5a4;
 
 }
 
-.topLinks {
-	text-align:center;
-	height:46px;
-	width:1152px;	
-	margin:0 auto;
-	padding:0;
-	background:url("images/HEADER_links_image.png") no-repeat center;
-	background-size: 52% 100%;
+.top a {
+	display:table;
+	vertical-align:middle;
+	text-decoration: none;
+	font-family:'CopperPlateL',Sans-Serif;
+	color:#71907f;
+	text-shadow:2px 2px 2px #000;
+	
+	font-size:25px;
 }
 
 .left {
@@ -234,7 +237,7 @@ a {
 
 .nav li:hover ul {
 	left: auto;
-	margin: -2em 0 0 15.3em;
+	margin: -2em 0 0 0;
 }
 
 .nav a:hover{
