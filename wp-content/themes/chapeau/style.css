@@ -244,7 +244,7 @@ a {
 	display: block;
 	width: 14em;
 	margin:0;
-	padding-left:1.3em;
+	padding-left:1.4em;
 	text-align:left;
 }
 
@@ -274,7 +274,7 @@ a {
 
 .sub-menu li:hover{
     color:#cbc5a4;
-	width: 14.5em;
+	width: 14.9em;
 	/*background-color:#005345;*/
 	/*background-color:#FF3;*/	
 }
@@ -507,7 +507,8 @@ th {
 	font-size:20px;
 	color:#71907f;
 	background-color:#005345;
-
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
 	margin:0;
 	padding:5px;
 	text-shadow:2px 2px 2px #000;
