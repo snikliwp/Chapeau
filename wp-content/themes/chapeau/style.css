@@ -432,7 +432,7 @@ th {
 	
 	background-color:#FFF;
 	background-image:url(images/logo.png);
-	background-position:center;
+	background-position:top;
 	background-repeat:no-repeat;
 	
 	display:block;
@@ -493,12 +493,18 @@ th {
 	position:relative;
 	z-index:50;
 
+}
 
-
+.events-sidebar {
+	margin:5px;
+	padding-bottom:5px;
+	border: 2px solid #005345;
+	height:450px;
+	overflow:hidden;
 }
 
 .widgettitle {
-	font-size:18px;
+	font-size:20px;
 	color:#71907f;
 	background-color:#005345;
 
@@ -508,16 +514,26 @@ th {
 
 }
 
+.upcoming li div {
+	font-size:15px;
+}
+
+
 .upcoming,
 .upcoming a {
 	margin:0;
 	padding:0;
-	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;;
+	font-size:18px;
+	font-family: "Lucida Sans", Verdana, Arial, Helvetica, sans-serif;
 	list-style-type:none;
 }
 
 .dig-in a{
+	position:absolute;
+	bottom:280px;
+	left:0;
 	text-decoration:none;
+	width:100%;
 }
 
 .upcoming li {
@@ -525,6 +541,7 @@ th {
 	text-align:left;
 
 }
+
 
 .footercontent{
 	margin-top:220px;
