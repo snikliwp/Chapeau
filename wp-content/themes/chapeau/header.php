@@ -17,7 +17,7 @@
 <body class="clearfix">
 
 <header class="top">
-	<h1 class="topLinks"><a href="#">Français</a><a href="#">English</a></h1>
+	<h1 class="topLinks"><a href="#">français</a><a href="#">english</a></h1>
 </header>
 
 
